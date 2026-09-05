@@ -10,7 +10,6 @@ import pandas as pd
 import streamlit as st
 
 from prediction_engine_v3 import PredictionEngine as EliteserienEngine
-from football_odds_api import populate_match_odds, get_api_key, DEFAULT_BOOKMAKERS
 
 try:
     from prediction_engine_laliga_v4_cards_referee import PredictionEngineLaLiga
@@ -415,68 +414,7 @@ def odds_data():
 
 
 def books():
-    return st.session_state.setdefault("v151_books", list(DEFAULT_BOOKMAKERS))
-
-
-
-@st.cache_data(ttl=300, show_spinner=False)
-def _auto_odds_snapshot(league, match_id, home_team, away_team, utc_time, rows_signature):
-    # rows_signature is only for cache invalidation; rows are rebuilt below.
-    fake_match = {
-        "match_id": match_id,
-        "home_team": home_team,
-        "away_team": away_team,
-        "utc_time": utc_time,
-    }
-    rows = [
-        {
-            "id": item[0],
-            "cat": item[1],
-            "key": item[2],
-            "label": item[3],
-        }
-        for item in rows_signature
-    ]
-    return populate_match_odds(
-        league,
-        fake_match,
-        rows,
-        selected_bookmakers=tuple(books()[:3]),
-    )
-
-
-def sync_auto_odds(match, league):
-    if not pre(match):
-        return {
-            "ok": False,
-            "locked": True,
-            "message": "Partido iniciado: cuotas live bloqueadas.",
-        }
-
-    rows = market_rows(match, league)
-    sig = tuple(
-        (r["id"], r["cat"], r["key"], r["label"])
-        for r in rows
-    )
-
-    result = _auto_odds_snapshot(
-        league,
-        str(match["match_id"]),
-        str(match["home_team"]),
-        str(match["away_team"]),
-        str(match["utc_time"]),
-        sig,
-    )
-
-    if result.get("prices"):
-        store = odds_data()
-        for market_id, prices in result["prices"].items():
-            target = store.setdefault(market_id, {})
-            for bookmaker, odd in prices.items():
-                target[bookmaker] = float(odd)
-
-    st.session_state["v151_auto_odds_status"] = result
-    return result
+    return st.session_state.setdefault("v151_books", ["Bet365","Unibet","Betano"])
 
 
 def best_odds(row):
@@ -498,9 +436,6 @@ def analyzed(row, min_ev):
 
 
 def interest_count(match, league, min_ev):
-    auto_status = sync_auto_odds(match, league)
-    if get_api_key() and not auto_status.get("locked"):
-        st.caption("📡 Cuotas automáticas prepartido · API-Football · " + " / ".join(books()[:3]))
     rows=[analyzed(r,min_ev) for r in market_rows(match,league) if r["cat"]!="1x2"]
     quoted=[r for r in rows if r["ev"] is not None]
     if quoted:
@@ -668,7 +603,6 @@ def quick_market_buttons(match,league):
 
 
 def top_opportunities(match,league,min_ev):
-    sync_auto_odds(match, league)
     rows=[analyzed(r,min_ev) for r in market_rows(match,league) if r["cat"]!="1x2"]
     quoted=[r for r in rows if r["ev"] is not None]
     if quoted:
@@ -747,7 +681,7 @@ def detailed_home(match,league,min_ev):
         st.markdown(f"""
         <div class="detail-card">
           <div class="detail-label">Comparativa de cuotas</div>
-          <div style="font-size:11px;color:#9db1c5;margin-top:7px">Cuota automática / respaldo:</div>
+          <div style="font-size:11px;color:#9db1c5;margin-top:7px">Hasta conectar API automática:</div>
           <div class="detail-big">{'—' if r['odds'] is None else f"{r['odds']:.2f}"}</div>
           <div style="font-size:11px;color:#9db1c5">{r['book'] or 'sin cuota cargada'}</div>
         </div>
@@ -798,14 +732,6 @@ def market_page(match,league,cat,min_ev):
         </div>
         """,unsafe_allow_html=True)
 
-    auto_status = sync_auto_odds(match, league)
-    if get_api_key():
-        if auto_status.get("ok"):
-            st.caption("📡 Cuotas prepartido automáticas · API-Football · " + " / ".join(books()[:3]))
-        elif not auto_status.get("locked"):
-            st.caption("📡 " + str(auto_status.get("message", "Sin cuotas automáticas para este mercado.")))
-    else:
-        st.warning("Falta API_FOOTBALL_KEY. La app no puede descargar cuotas automáticas todavía.")
     rows=[r for r in market_rows(match,league) if r["cat"]==cat]
     for r in rows:
         a=analyzed(r,min_ev)
@@ -817,21 +743,7 @@ def market_page(match,league,cat,min_ev):
             c4.metric("Mín. EV",f"{a['min']:.2f}")
             c5.metric("EV","—" if a["ev"] is None else f"{a['ev']*100:+.1f}%")
             if pre(match):
-                prices = odds_data().get(r["id"], {})
-                automatic = [(b, prices.get(b)) for b in books()[:3] if prices.get(b)]
-                if automatic:
-                    cols_auto = st.columns(len(books()[:3]), gap="small")
-                    for col_auto, book_name in zip(cols_auto, books()[:3]):
-                        with col_auto:
-                            price = prices.get(book_name)
-                            if price:
-                                st.metric(book_name, f"{float(price):.2f}")
-                            else:
-                                st.metric(book_name, "—")
-                else:
-                    st.caption("La API no ha publicado esta línea en nuestras casas seleccionadas.")
-                with st.expander("✏️ Cuota manual de respaldo"):
-                    odds_inputs(r,False)
+                odds_inputs(r,False)
             else:
                 st.caption("🔒 Partido iniciado: no se aceptan nuevas cuotas.")
 
@@ -865,7 +777,7 @@ def scan_page(match,league,min_ev):
     rows=[analyzed(r,min_ev) for r in market_rows(match,league) if r["cat"]!="1x2"]
     quoted=[r for r in rows if r["ev"] is not None]
     if not quoted:
-        st.info("API-Football no ha devuelto cuotas para estas líneas/casas todavía. Puedes usar el respaldo manual si hace falta.")
+        st.info("Aún no hay cuotas. Entra en cada mercado para cargarlas manualmente; después conectaremos la API de 1–3 casas.")
         rows=sorted(rows,key=lambda r:(("FUERTE" in r["level"]),r["p"]),reverse=True)
     else:
         rows=sorted(quoted,key=lambda r:r["ev"],reverse=True)
@@ -917,11 +829,6 @@ def global_opps(predictions,league,min_ev):
 
 def settings(league):
     st.markdown('<div class="title">⚙️ Ajustes</div>',unsafe_allow_html=True)
-    if get_api_key():
-        st.success("📡 API-Football conectada · cuotas automáticas PREPARTIDO activas")
-    else:
-        st.error("📡 API-Football sin configurar · añade API_FOOTBALL_KEY")
-
     st.markdown('<div class="subtitle">Configuración de trabajo del analista</div>',unsafe_allow_html=True)
     with st.container(border=True):
         st.markdown("### Casas de apuestas")

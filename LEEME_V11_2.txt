@@ -1,0 +1,10 @@
+FOOTBALL EDGE PRO V11.2
+=======================
+
+FIX DEL MARCADOR FOTMOB:
+- Si el listado de liga no trae el score, lo recupera de matchDetails.
+- Nunca guarda un partido finalizado con marcador vacío.
+- Mantiene backup y restauración automática si algo falla.
+
+Ejecutar:
+ACTUALIZAR_LALIGA_SIN_ABRIR_APP.bat

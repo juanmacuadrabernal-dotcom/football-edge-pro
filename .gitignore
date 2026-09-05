@@ -1,0 +1,49 @@
+# =========================
+# FOOTBALL EDGE PRO
+# =========================
+
+# Secrets / local environment
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local raw caches / downloads / backups
+data/backups/
+data/fotmob_referee_raw/
+data/fotmob_referees_raw/
+data/fotmob_raw/
+data/fotmob_cache/
+data/cache/
+
+# LaLiga raw referee cache: thousands of JSON files, NOT needed for deployed app
+data/laliga_raw/fotmob_referees/
+
+# Logs / temp / stray files
+*.log
+*.tmp
+reports/
+/10
+/20
+/python
+
+# IMPORTANT:
+# Keep current DBs and trained models for Streamlit deployment
+!data/
+!data/*.db
+!models/
+!models/*.joblib

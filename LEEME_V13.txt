@@ -1,0 +1,14 @@
+FOOTBALL EDGE PRO V13 - DISENO BONITO
+=====================================
+
+CAMBIOS VISUALES:
+- Rediseño general mas bonito y premium.
+- Cabecera principal con estilo hero.
+- Sidebar mas limpia y elegante.
+- Tabs mas vistosas.
+- Tarjetas metricas mejor presentadas.
+- Contenedores y expanders con bordes redondeados y mejor aire visual.
+- Se mantiene todo el motor y logica de V12.1.
+
+ABRIR:
+ABRIR_FOOTBALL_EDGE_PRO_V13.bat

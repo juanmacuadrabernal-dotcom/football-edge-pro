@@ -1,0 +1,25 @@
+{
+  "method": "Platt scaling on V2 out-of-sample predictions",
+  "markets": {
+    "over_15": {
+      "label": "Over 1.5",
+      "samples": 624,
+      "model_path": "models\\goals_v2_calibrator_over_15.joblib"
+    },
+    "over_25": {
+      "label": "Over 2.5",
+      "samples": 624,
+      "model_path": "models\\goals_v2_calibrator_over_25.joblib"
+    },
+    "over_35": {
+      "label": "Over 3.5",
+      "samples": 624,
+      "model_path": "models\\goals_v2_calibrator_over_35.joblib"
+    },
+    "btts": {
+      "label": "BTTS",
+      "samples": 624,
+      "model_path": "models\\goals_v2_calibrator_btts.joblib"
+    }
+  }
+}

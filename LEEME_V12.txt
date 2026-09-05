@@ -1,0 +1,20 @@
+FOOTBALL EDGE PRO V12 - JORNADA SCANNER
+=======================================
+
+NUEVO:
+- Nueva pestaña: Scanner jornada.
+- Escanea TODOS los mercados soportados de cada partido.
+- Goles, corners, Cards V3, SOT total, SOT local y SOT visitante.
+- Muestra probabilidad del modelo, cuota justa y cuota minima para el EV elegido.
+- La columna Cuota es editable: pega/escribe las cuotas reales.
+- Ranking automatico por EV.
+- BET candidato solo si EV >= umbral del lateral.
+- Si no introduces cuotas, solo muestra ranking predictivo y NO lo llama apuesta.
+- Cards muestra perfil e impacto del arbitro cuando esta asignado.
+
+IMPORTANTE:
+- Conserva intacta la V11.5 del actualizador y los modelos actuales.
+- El Scanner NO inventa cuotas y no fuerza picks.
+
+ABRIR:
+ABRIR_FOOTBALL_EDGE_PRO_V12.bat

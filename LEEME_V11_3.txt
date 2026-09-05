@@ -1,0 +1,16 @@
+FOOTBALL EDGE PRO V11.3
+=======================
+
+MEJORAS:
+- Corrige tiros a puerta FotMob: añade shotsontarget y fallback por shotmap.
+- Ya no decide reentrenar solo por 'partidos nuevos de esta ejecución'.
+- Detecta si features/modelos están desincronizados tras cerrar un terminal.
+- La primera ejecución V11.3 fuerza UNA sincronización completa de features/modelos.
+- Después vuelve a ser incremental.
+- No recorre 2020+.
+
+Ejecutar actualización:
+ACTUALIZAR_LALIGA_SIN_ABRIR_APP.bat
+
+Abrir app:
+ABRIR_FOOTBALL_EDGE_PRO_V11_3.bat

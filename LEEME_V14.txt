@@ -1,0 +1,22 @@
+FOOTBALL EDGE PRO V14 - PREMIUM BET MOBILE
+==========================================
+
+NUEVO DISEÑO:
+- App premium oscura, deportiva y mas visual.
+- Inspiracion dashboard de resultados / bet app.
+- Tarjetas de proximos partidos.
+- Mas aire y mejor espaciado en movil.
+- Menu desplegable propio: ☰ MENU · Ir a.
+- Navegacion persistente por ?page=..., como Tennis Edge Pro.
+- Sidebar se mantiene para controles y actualizaciones.
+
+1X2:
+- Probabilidad 1 / X / 2.
+- Cuota justa de cada seleccion = 1/probabilidad.
+- Cuota minima para el EV configurado.
+- Columna editable para cuota de la casa.
+- Comparacion teorica ordenada de mejor precio a peor.
+- Sigue siendo CONTEXTO: no se declara mercado aprobado.
+
+ABRIR:
+ABRIR_FOOTBALL_EDGE_PRO_V14.bat

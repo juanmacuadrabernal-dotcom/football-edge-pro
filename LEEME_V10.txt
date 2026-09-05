@@ -1,0 +1,18 @@
+FOOTBALL EDGE PRO V10 - ACTUALIZACION AUTOMATICA LALIGA
+
+1) Copia todos estos archivos en la carpeta principal del proyecto.
+2) Abre ABRIR_FOOTBALL_EDGE_PRO_V10.bat
+3) En LaLiga usa:
+   - 🚀 ACTUALIZAR TODO: al terminar una jornada.
+   - 🔄 Solo próxima jornada: para refrescar fixtures/arbitros sin reentrenar.
+
+ACTUALIZAR TODO hace:
+- refresca Football-Data 2020/21-actual
+- reconstruye team_match_history y pre-match features
+- refresca historial FotMob de arbitros usando cache
+- normaliza aliases y rehace features arbitrales
+- reentrena Goals V4, Corners V1, SOT V1 y Cards V3 final
+- descarga la proxima jornada y arbitros asignados
+- crea backup antes de tocar DB/modelos y lo restaura si falla
+
+No repite walk-forward/backtests completos cada jornada.

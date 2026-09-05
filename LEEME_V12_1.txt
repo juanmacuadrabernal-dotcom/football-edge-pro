@@ -1,0 +1,16 @@
+FOOTBALL EDGE PRO V12.1 - SCANNER LIMPIO
+========================================
+
+CAMBIOS:
+- Scanner ordenado automaticamente de mejor a peor.
+- Sin cuotas: mayor probabilidad primero.
+- Con cuotas: mayor EV primero.
+- Numero de puesto visible.
+- Tabla principal mucho mas limpia.
+- Se ocultan cuota justa, tipo e impacto arbitral en un desplegable de detalles.
+- Resumen superior: mercados / con cuota / candidatos EV.
+- Ranking de valor separado y mas legible.
+- Mantiene intacto actualizador V11.5 y modelos.
+
+ABRIR:
+ABRIR_FOOTBALL_EDGE_PRO_V12_1.bat

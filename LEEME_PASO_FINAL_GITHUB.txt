@@ -1,0 +1,17 @@
+PASO FINAL - GITHUB
+====================
+
+1) Copia estos BAT dentro de:
+   C:\Users\Juan Manuel\Desktop\eliteserien_edge_pro_starter
+
+2) Ejecuta HACER_PRIMER_COMMIT.bat
+
+3) En GitHub crea un repositorio VACIO:
+   football-edge-pro
+   NO añadas README, .gitignore ni License.
+
+4) Copia la URL HTTPS del repo.
+
+5) Ejecuta SUBIR_A_GITHUB.bat y pega esa URL.
+
+Después podremos desplegar streamlit_app.py en Streamlit Community Cloud.

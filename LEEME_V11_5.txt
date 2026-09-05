@@ -1,0 +1,19 @@
+FOOTBALL EDGE PRO V11.5
+=======================
+
+FIX:
+- Recupera kickoff UTC desde referee_match_history cuando el utc_time migrado no parsea.
+- No usa solo la fecha: exige hora UTC exacta para evitar leakage cronologico.
+- Antes de reentrenar exige:
+  * 32/32 partidos actuales en features
+  * SOT completo
+  * 32/32 match_id actuales compartidos con arbitros
+- Si falla cualquier validacion, aborta antes de tocar los modelos.
+- Fuerza una sincronizacion unica al instalar V11.5.
+
+Esperado ahora (con 32 finalizados):
+Temporadas: [2023, 2024, 2025, 2026]
+Partidos usados: 1172
+Filas equipo-partido: 2344
+Verificacion features 2026/2027: 32/32 partidos
+VALIDACION PREVIA: DB=32 · features=32 · refs compartidos=32

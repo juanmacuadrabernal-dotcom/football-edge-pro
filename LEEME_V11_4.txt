@@ -1,0 +1,19 @@
+FOOTBALL EDGE PRO V11.4
+=======================
+
+FIX CRITICO:
+- V11.3 dejo fuera 2026/27 al construir team features.
+- V11.4 usa COALESCE/CAST robustos y valida la temporada actual.
+- Si hay 32 partidos terminados, exige 32 partidos en team features.
+- Si falta uno solo, aborta ANTES de sobrescribir modelos.
+- Fuerza una sincronizacion unica al instalar V11.4.
+- SOT 32/32 se mantiene.
+
+Ejecutar:
+ACTUALIZAR_LALIGA_SIN_ABRIR_APP.bat
+
+Esperado tras el fix:
+- Temporadas: [2023, 2024, 2025, 2026]
+- Partidos usados: 1172 (si hay 32 terminados en 2026/27)
+- Verificacion features 2026/2027: 32/32
+- Modelos reentrenados con 1172 partidos

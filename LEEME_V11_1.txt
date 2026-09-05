@@ -1,0 +1,17 @@
+FOOTBALL EDGE PRO V11.1 - RESULTADOS FOTMOB INCREMENTALES
+==========================================================
+
+CORRECCION:
+- Football-Data puede tardar en publicar los resultados mas recientes.
+- A partir de V11.1, FotMob decide que partidos han terminado.
+- Solo se consulta la temporada actual.
+- Solo los partidos nuevos provocan reentrenamiento.
+- La primera ejecucion migra la temporada actual a IDs reales de FotMob.
+- Reutiliza la cache ya descargada de arbitros/matchDetails.
+- Football-Data sigue disponible para historico y cuotas cuando existan.
+
+Abrir app:
+ABRIR_FOOTBALL_EDGE_PRO_V11_1.bat
+
+Actualizar sin abrir app:
+ACTUALIZAR_LALIGA_SIN_ABRIR_APP.bat

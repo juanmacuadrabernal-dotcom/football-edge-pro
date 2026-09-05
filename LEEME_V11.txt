@@ -1,0 +1,15 @@
+FOOTBALL EDGE PRO V11 - ACTUALIZACION INCREMENTAL
+==================================================
+
+CAMBIO CLAVE:
+- Ya NO recorre 2020+ cada jornada.
+- Resultados: consulta solo la temporada actual.
+- Arbitros: descarga solo match_id nuevos que falten.
+- Si hay 0 partidos nuevos, NO reconstruye features ni reentrena modelos.
+- Siempre refresca la proxima jornada y los arbitros asignados.
+
+Abrir app:
+ABRIR_FOOTBALL_EDGE_PRO_V11.bat
+
+Actualizar sin abrir app:
+ACTUALIZAR_LALIGA_SIN_ABRIR_APP.bat

@@ -2,15 +2,9 @@
 from __future__ import annotations
 
 import os
-import re
 import subprocess
 import sys
-import html
-import unicodedata
-from difflib import SequenceMatcher
 from pathlib import Path
-
-import requests
 
 import pandas as pd
 import streamlit as st
@@ -25,7 +19,7 @@ except Exception:
 
 
 st.set_page_config(
-    page_title="Football Edge Pro v15.2.2",
+    page_title="Football Edge Pro v15.1",
     page_icon="⚽",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -150,12 +144,6 @@ def css():
             border:1px solid rgba(115,169,220,.28);
             color:#fff;font-weight:950;font-size:13px;
             box-shadow:inset 0 0 10px rgba(255,255,255,.02)
-        }
-        .mini-badge img{
-            width:30px;height:30px;object-fit:contain;display:block;
-        }
-        .hero-badge img{
-            width:49px;height:49px;object-fit:contain;display:block;
         }
         .mini-vs{font-size:11px;color:#5d7891;font-weight:800}
         .fixture-name{font-size:13px;font-weight:850;color:#fff;line-height:1.25}
@@ -340,126 +328,6 @@ def initials(team):
     if len(ws) == 1:
         return ws[0][:2].upper()
     return (ws[0][0] + ws[-1][0]).upper()
-
-
-def _crest_norm(value):
-    s = str(value or "").lower().strip()
-    s = "".join(
-        c for c in unicodedata.normalize("NFD", s)
-        if unicodedata.category(c) != "Mn"
-    )
-    s = re.sub(r"[^a-z0-9]+", " ", s).strip()
-    return s
-
-
-FOTMOB_TEAM_IDS = {
-    # LaLiga 2026/27 — IDs fijos de equipo.
-    "barcelona": 8634,
-    "fc barcelona": 8634,
-
-    "real madrid": 8633,
-    "real madrid cf": 8633,
-
-    "atletico madrid": 9906,
-    "atletico de madrid": 9906,
-    "ath madrid": 9906,
-
-    "athletic club": 8315,
-    "athletic bilbao": 8315,
-    "ath bilbao": 8315,
-
-    "real betis": 8603,
-    "real betis balompie": 8603,
-    "betis": 8603,
-
-    "villarreal": 10205,
-    "villarreal cf": 10205,
-
-    "rayo vallecano": 8370,
-    "vallecano": 8370,
-
-    "racing santander": 8696,
-    "racing de santander": 8696,
-
-    "deportivo la coruna": 9783,
-    "deportivo de la coruna": 9783,
-    "deportivo a coruna": 9783,
-    "deportivo": 9783,
-
-    "valencia": 10267,
-    "valencia cf": 10267,
-
-    "deportivo alaves": 9866,
-    "alaves": 9866,
-
-    "osasuna": 8371,
-    "ca osasuna": 8371,
-
-    "malaga": 9864,
-    "malaga cf": 9864,
-
-    "levante": 8581,
-    "levante ud": 8581,
-
-    "espanyol": 8558,
-    "espanol": 8558,
-    "rcd espanyol": 8558,
-
-    "sevilla": 8302,
-    "sevilla fc": 8302,
-
-    "getafe": 8305,
-    "getafe cf": 8305,
-
-    "celta": 9910,
-    "celta vigo": 9910,
-    "rc celta": 9910,
-    "rc celta de vigo": 9910,
-
-    "elche": 10268,
-    "elche cf": 10268,
-
-    "real sociedad": 8560,
-    "sociedad": 8560,
-}
-
-
-def fotmob_team_id(team):
-    """
-    Mapa fijo para LaLiga: no llama a la API de búsqueda de FotMob.
-    Evita que los escudos desaparezcan si ese endpoint bloquea/limita peticiones.
-    """
-    return FOTMOB_TEAM_IDS.get(_crest_norm(team))
-
-
-def crest_url(team, league):
-    if league != "laliga":
-        return None
-
-    team_id = fotmob_team_id(team)
-    if not team_id:
-        return None
-
-    return (
-        "https://images.fotmob.com/image_resources/"
-        f"logo/teamlogo/{team_id}.png"
-    )
-
-def badge_html(team, league, size="mini"):
-    css_class = "hero-badge" if size == "hero" else "mini-badge"
-    url = crest_url(team, league)
-
-    if url:
-        alt = html.escape(str(team), quote=True)
-        fallback = html.escape(initials(team), quote=True)
-        return (
-            f'<div class="{css_class}">'
-            f'<img src="{url}" alt="{alt}" loading="eager" '
-            f'onerror="this.remove();this.parentElement.textContent=\'{fallback}\';">'
-            f'</div>'
-        )
-
-    return f'<div class="{css_class}">{initials(team)}</div>'
 
 
 def fair(p):
@@ -692,7 +560,7 @@ def sidebar():
         st.markdown("---")
         mev=st.slider("EV mínimo",0,20,5,1,key="v151_ev")/100
 
-        st.markdown("<br><div style='font-size:10px;color:#74899e'>Football Edge Pro v15.2.2<br>Analistas, no apostadores.</div>",unsafe_allow_html=True)
+        st.markdown("<br><div style='font-size:10px;color:#74899e'>Football Edge Pro v15.1<br>Analistas, no apostadores.</div>",unsafe_allow_html=True)
     return pg,league,mev
 
 
@@ -734,9 +602,9 @@ def fixture_strip(predictions,league,min_ev):
                 st.markdown(f"""
                 <div class="fixture-card {'selected' if sel else ''}">
                   <div class="mini-teams">
-                    {badge_html(m["home_team"], league, "mini")}
+                    <div class="mini-badge">{initials(m['home_team'])}</div>
                     <div class="mini-vs">+</div>
-                    {badge_html(m["away_team"], league, "mini")}
+                    <div class="mini-badge">{initials(m['away_team'])}</div>
                   </div>
                   <div class="fixture-name">{m['home_team']} vs {m['away_team']}</div>
                   <div class="fixture-time">{kick.strftime('%a, %d %b · %H:%M')}</div>
@@ -752,13 +620,13 @@ def fixture_strip(predictions,league,min_ev):
     return get_match(predictions,st.session_state["v151_selected"])
 
 
-def hero(match, league):
+def hero(match):
     kick=local_time(match["utc_time"])
     st.markdown(f"""
     <div class="hero">
       <div class="hero-grid">
         <div class="hero-team">
-          {badge_html(match["home_team"], league, "hero")}
+          <div class="hero-badge">{initials(match['home_team'])}</div>
           <div class="hero-team-name">{match['home_team']}</div>
         </div>
         <div class="hero-mid">
@@ -767,7 +635,7 @@ def hero(match, league):
           <div style="margin-top:5px">{'<span class="pill-pre">PREPARTIDO</span>' if pre(match) else '<span class="pill-started">INICIADO</span>'}</div>
         </div>
         <div class="hero-team">
-          {badge_html(match["away_team"], league, "hero")}
+          <div class="hero-badge">{initials(match['away_team'])}</div>
           <div class="hero-team-name">{match['away_team']}</div>
         </div>
         <div class="hero-count">
@@ -1106,7 +974,7 @@ if not predictions:
 if page=="🏠 Jornada":
     top_header(predictions,league)
     match=fixture_strip(predictions,league,min_ev)
-    hero(match, league)
+    hero(match)
     quick_market_buttons(match,league)
 
     chosen=st.session_state.get("v151_market")

@@ -10,7 +10,7 @@ import pandas as pd
 import streamlit as st
 
 from prediction_engine_v3 import PredictionEngine as EliteserienEngine
-from football_odds_oddspapi import populate_match_odds, get_api_key, DEFAULT_BOOKMAKERS
+from football_odds_api import populate_match_odds, get_api_key, DEFAULT_BOOKMAKERS
 
 try:
     from prediction_engine_laliga_v4_cards_referee import PredictionEngineLaLiga
@@ -498,6 +498,9 @@ def analyzed(row, min_ev):
 
 
 def interest_count(match, league, min_ev):
+    auto_status = sync_auto_odds(match, league)
+    if get_api_key() and not auto_status.get("locked"):
+        st.caption("📡 Cuotas automáticas prepartido · API-Football · " + " / ".join(books()[:3]))
     rows=[analyzed(r,min_ev) for r in market_rows(match,league) if r["cat"]!="1x2"]
     quoted=[r for r in rows if r["ev"] is not None]
     if quoted:
@@ -780,8 +783,6 @@ def market_page(match,league,cat,min_ev):
 
     if cat=="1x2":
         st.warning("1X2 es contexto analítico. No lo tratamos como mercado aprobado para apostar.")
-    if cat=="sot":
-        st.info("🎯 Remates a puerta: cuotas MANUALES. El modelo y el EV siguen funcionando; no usamos una API externa para este mercado.")
 
     if cat=="cards":
         cards=match.get("cards",{}) or {}
@@ -796,17 +797,15 @@ def market_page(match,league,cat,min_ev):
           <div style="font-size:11px;color:#9fb3c6;margin-top:4px">{prof} · media {'—' if av is None or pd.isna(av) else f"{float(av):.2f}"} tarjetas</div>
         </div>
         """,unsafe_allow_html=True)
-        st.caption("🟨 Cuotas: Bet365 / Winamax / Pinnacle vía OddsPapi. El mercado automático es Bookings - Over Under Full Time; revisa las reglas de liquidación de cada casa.")
 
     auto_status = sync_auto_odds(match, league)
     if get_api_key():
         if auto_status.get("ok"):
-            rem = auto_status.get("remaining")
-            st.caption("📡 Cuotas PREPARTIDO · OddsPapi · " + " / ".join(books()[:3]))
+            st.caption("📡 Cuotas prepartido automáticas · API-Football · " + " / ".join(books()[:3]))
         elif not auto_status.get("locked"):
             st.caption("📡 " + str(auto_status.get("message", "Sin cuotas automáticas para este mercado.")))
     else:
-        st.warning("Falta ODDSPAPI_API_KEY. La app no puede descargar cuotas automáticas todavía.")
+        st.warning("Falta API_FOOTBALL_KEY. La app no puede descargar cuotas automáticas todavía.")
     rows=[r for r in market_rows(match,league) if r["cat"]==cat]
     for r in rows:
         a=analyzed(r,min_ev)
@@ -830,7 +829,7 @@ def market_page(match,league,cat,min_ev):
                             else:
                                 st.metric(book_name, "—")
                 else:
-                    st.caption("Sin cuota automática para esta línea en nuestras 3 casas.")
+                    st.caption("La API no ha publicado esta línea en nuestras casas seleccionadas.")
                 with st.expander("✏️ Cuota manual de respaldo"):
                     odds_inputs(r,False)
             else:
@@ -863,16 +862,10 @@ def scan_page(match,league,min_ev):
         st.error("🔴 Partido iniciado. El escaneo de precio queda cerrado.")
         return
 
-    auto_status = sync_auto_odds(match, league)
-    if get_api_key():
-        if auto_status.get("ok"):
-            st.caption("📡 Cuotas automáticas PREPARTIDO · OddsPapi · " + " / ".join(books()[:3]))
-        elif not auto_status.get("locked"):
-            st.caption("📡 " + str(auto_status.get("message", "Sin cuotas automáticas para este partido.")))
     rows=[analyzed(r,min_ev) for r in market_rows(match,league) if r["cat"]!="1x2"]
     quoted=[r for r in rows if r["ev"] is not None]
     if not quoted:
-        st.info("OddsPapi no ha devuelto cuota para esas líneas en Bet365 / Winamax / Pinnacle todavía. En tarjetas y córners puede ser simplemente que la casa aún no haya abierto el mercado; SOT total/equipo sigue manual.")
+        st.info("API-Football no ha devuelto cuotas para estas líneas/casas todavía. Puedes usar el respaldo manual si hace falta.")
         rows=sorted(rows,key=lambda r:(("FUERTE" in r["level"]),r["p"]),reverse=True)
     else:
         rows=sorted(quoted,key=lambda r:r["ev"],reverse=True)
@@ -925,9 +918,9 @@ def global_opps(predictions,league,min_ev):
 def settings(league):
     st.markdown('<div class="title">⚙️ Ajustes</div>',unsafe_allow_html=True)
     if get_api_key():
-        st.success("📡 OddsPapi conectada · Bet365 / Winamax / Pinnacle · PREPARTIDO")
+        st.success("📡 API-Football conectada · cuotas automáticas PREPARTIDO activas")
     else:
-        st.error("📡 OddsPapi sin configurar · añade ODDSPAPI_API_KEY")
+        st.error("📡 API-Football sin configurar · añade API_FOOTBALL_KEY")
 
     st.markdown('<div class="subtitle">Configuración de trabajo del analista</div>',unsafe_allow_html=True)
     with st.container(border=True):

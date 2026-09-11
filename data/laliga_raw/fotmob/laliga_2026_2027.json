@@ -145,6 +145,23 @@
               "qualColor": "#2AD572"
             },
             {
+              "name": "Sevilla",
+              "shortName": "Sevilla",
+              "id": 8302,
+              "pageUrl": "/teams/8302/overview/sevilla",
+              "deduction": null,
+              "ongoing": null,
+              "played": 5,
+              "wins": 3,
+              "draws": 1,
+              "losses": 1,
+              "scoresStr": "8-6",
+              "goalConDiff": 2,
+              "pts": 10,
+              "idx": 3,
+              "qualColor": "#2AD572"
+            },
+            {
               "name": "Real Madrid",
               "shortName": "Real Madrid",
               "id": 8633,
@@ -158,7 +175,7 @@
               "scoresStr": "10-3",
               "goalConDiff": 7,
               "pts": 9,
-              "idx": 3,
+              "idx": 4,
               "qualColor": "#2AD572"
             },
             {
@@ -175,8 +192,8 @@
               "scoresStr": "5-5",
               "goalConDiff": 0,
               "pts": 9,
-              "idx": 4,
-              "qualColor": "#2AD572"
+              "idx": 5,
+              "qualColor": "#0046A7"
             },
             {
               "name": "Deportivo A Coruña",
@@ -192,31 +209,14 @@
               "scoresStr": "8-5",
               "goalConDiff": 3,
               "pts": 8,
-              "idx": 5,
-              "qualColor": "#0046A7"
+              "idx": 6,
+              "qualColor": "#02CCF0"
             },
             {
               "name": "Atlético Madrid",
               "shortName": "Atlético Madrid",
               "id": 9906,
               "pageUrl": "/teams/9906/overview/atletico-madrid",
-              "deduction": null,
-              "ongoing": null,
-              "played": 4,
-              "wins": 2,
-              "draws": 1,
-              "losses": 1,
-              "scoresStr": "7-6",
-              "goalConDiff": 1,
-              "pts": 7,
-              "idx": 6,
-              "qualColor": "#02CCF0"
-            },
-            {
-              "name": "Sevilla",
-              "shortName": "Sevilla",
-              "id": 8302,
-              "pageUrl": "/teams/8302/overview/sevilla",
               "deduction": null,
               "ongoing": null,
               "played": 4,
@@ -440,12 +440,12 @@
               "pageUrl": "/teams/10267/overview/valencia",
               "deduction": null,
               "ongoing": null,
-              "played": 4,
+              "played": 5,
               "wins": 0,
               "draws": 1,
-              "losses": 3,
-              "scoresStr": "1-9",
-              "goalConDiff": -8,
+              "losses": 4,
+              "scoresStr": "1-10",
+              "goalConDiff": -9,
               "pts": 1,
               "idx": 20,
               "qualColor": "#FF4646"
@@ -525,6 +525,24 @@
               "qualColor": "#2AD572"
             },
             {
+              "name": "Sevilla",
+              "shortName": "Sevilla",
+              "id": 8302,
+              "pageUrl": "/teams/8302/overview/sevilla",
+              "deduction": null,
+              "ongoing": null,
+              "played": 3,
+              "wins": 2,
+              "draws": 0,
+              "losses": 1,
+              "scoresStr": "4-4",
+              "goalConDiff": 0,
+              "goalsScored": 4,
+              "pts": 6,
+              "idx": 5,
+              "qualColor": "#0046A7"
+            },
+            {
               "name": "Espanyol",
               "shortName": "Espanyol",
               "id": 8558,
@@ -539,8 +557,8 @@
               "goalConDiff": 2,
               "goalsScored": 5,
               "pts": 4,
-              "idx": 5,
-              "qualColor": "#0046A7"
+              "idx": 6,
+              "qualColor": "#02CCF0"
             },
             {
               "name": "Deportivo A Coruña",
@@ -557,8 +575,8 @@
               "goalConDiff": 2,
               "goalsScored": 4,
               "pts": 4,
-              "idx": 6,
-              "qualColor": "#02CCF0"
+              "idx": 7,
+              "qualColor": null
             },
             {
               "name": "Atlético Madrid",
@@ -575,7 +593,7 @@
               "goalConDiff": 2,
               "goalsScored": 4,
               "pts": 4,
-              "idx": 7,
+              "idx": 8,
               "qualColor": null
             },
             {
@@ -593,7 +611,7 @@
               "goalConDiff": 1,
               "goalsScored": 5,
               "pts": 4,
-              "idx": 8,
+              "idx": 9,
               "qualColor": null
             },
             {
@@ -611,7 +629,7 @@
               "goalConDiff": 1,
               "goalsScored": 4,
               "pts": 4,
-              "idx": 9,
+              "idx": 10,
               "qualColor": null
             },
             {
@@ -629,7 +647,7 @@
               "goalConDiff": 1,
               "goalsScored": 2,
               "pts": 4,
-              "idx": 10,
+              "idx": 11,
               "qualColor": null
             },
             {
@@ -647,7 +665,7 @@
               "goalConDiff": 1,
               "goalsScored": 2,
               "pts": 4,
-              "idx": 11,
+              "idx": 12,
               "qualColor": null
             },
             {
@@ -665,7 +683,7 @@
               "goalConDiff": 1,
               "goalsScored": 1,
               "pts": 4,
-              "idx": 12,
+              "idx": 13,
               "qualColor": null
             },
             {
@@ -683,7 +701,7 @@
               "goalConDiff": 3,
               "goalsScored": 5,
               "pts": 3,
-              "idx": 13,
+              "idx": 14,
               "qualColor": null
             },
             {
@@ -700,24 +718,6 @@
               "scoresStr": "4-3",
               "goalConDiff": 1,
               "goalsScored": 4,
-              "pts": 3,
-              "idx": 14,
-              "qualColor": null
-            },
-            {
-              "name": "Sevilla",
-              "shortName": "Sevilla",
-              "id": 8302,
-              "pageUrl": "/teams/8302/overview/sevilla",
-              "deduction": null,
-              "ongoing": null,
-              "played": 2,
-              "wins": 1,
-              "draws": 0,
-              "losses": 1,
-              "scoresStr": "3-4",
-              "goalConDiff": -1,
-              "goalsScored": 3,
               "pts": 3,
               "idx": 15,
               "qualColor": null
@@ -1109,12 +1109,12 @@
               "pageUrl": "/teams/10267/overview/valencia",
               "deduction": null,
               "ongoing": null,
-              "played": 1,
+              "played": 2,
               "wins": 0,
               "draws": 0,
-              "losses": 1,
-              "scoresStr": "1-3",
-              "goalConDiff": -2,
+              "losses": 2,
+              "scoresStr": "1-4",
+              "goalConDiff": -3,
               "goalsScored": 1,
               "pts": 0,
               "idx": 17,
@@ -1213,6 +1213,24 @@
               "qualColor": "#2AD572"
             },
             {
+              "name": "Sevilla",
+              "shortName": "Sevilla",
+              "featuredInMatch": false,
+              "id": 8302,
+              "pageUrl": "/teams/8302/overview/sevilla",
+              "played": 5,
+              "wins": 3,
+              "draws": 1,
+              "losses": 1,
+              "scoresStr": "8-6",
+              "goalConDiff": 2,
+              "goalsScored": 8,
+              "pts": 10,
+              "ongoing": null,
+              "idx": 3,
+              "qualColor": "#2AD572"
+            },
+            {
               "name": "Real Madrid",
               "shortName": "Real Madrid",
               "featuredInMatch": false,
@@ -1227,7 +1245,7 @@
               "goalsScored": 10,
               "pts": 9,
               "ongoing": null,
-              "idx": 3,
+              "idx": 4,
               "qualColor": "#2AD572"
             },
             {
@@ -1245,8 +1263,8 @@
               "goalsScored": 5,
               "pts": 9,
               "ongoing": null,
-              "idx": 4,
-              "qualColor": "#2AD572"
+              "idx": 5,
+              "qualColor": "#0046A7"
             },
             {
               "name": "Deportivo A Coruña",
@@ -1262,24 +1280,6 @@
               "goalConDiff": 3,
               "goalsScored": 8,
               "pts": 8,
-              "ongoing": null,
-              "idx": 5,
-              "qualColor": "#0046A7"
-            },
-            {
-              "name": "Sevilla",
-              "shortName": "Sevilla",
-              "featuredInMatch": false,
-              "id": 8302,
-              "pageUrl": "/teams/8302/overview/sevilla",
-              "played": 4,
-              "wins": 2,
-              "draws": 1,
-              "losses": 1,
-              "scoresStr": "7-6",
-              "goalConDiff": 1,
-              "goalsScored": 7,
-              "pts": 7,
               "ongoing": null,
               "idx": 6,
               "qualColor": "#02CCF0"
@@ -1524,12 +1524,12 @@
               "featuredInMatch": false,
               "id": 10267,
               "pageUrl": "/teams/10267/overview/valencia",
-              "played": 4,
+              "played": 5,
               "wins": 0,
               "draws": 1,
-              "losses": 3,
-              "scoresStr": "1-9",
-              "goalConDiff": -8,
+              "losses": 4,
+              "scoresStr": "1-10",
+              "goalConDiff": -9,
               "goalsScored": 1,
               "pts": 1,
               "ongoing": null,
@@ -1589,7 +1589,7 @@
               "xPointsDiff": -1.716962937250699,
               "xPosition": 2,
               "idx": 2,
-              "xPositionDiff": 1,
+              "xPositionDiff": 2,
               "qualColor": "#2AD572"
             },
             {
@@ -1620,6 +1620,33 @@
               "qualColor": "#2AD572"
             },
             {
+              "name": "Sevilla",
+              "shortName": "Sevilla",
+              "id": 8302,
+              "pageUrl": "/teams/8302/overview/sevilla",
+              "ongoing": null,
+              "played": 5,
+              "wins": 3,
+              "draws": 1,
+              "losses": 1,
+              "scoresStr": "8-6",
+              "goalConDiff": 2,
+              "pts": 10,
+              "teamId": 8302,
+              "teamName": "Sevilla",
+              "xg": 6.076499879360199,
+              "xgConceded": 5.493899919092655,
+              "xPoints": 7.304752580609767,
+              "position": 4,
+              "xgDiff": 1.923500120639801,
+              "xgConcededDiff": 0.5061000809073448,
+              "xPointsDiff": 2.695247419390233,
+              "xPosition": 4,
+              "idx": 4,
+              "xPositionDiff": -1,
+              "qualColor": "#2AD572"
+            },
+            {
               "name": "Villarreal",
               "shortName": "Villarreal",
               "id": 10205,
@@ -1637,14 +1664,14 @@
               "xg": 7.20470005273819,
               "xgConceded": 4.204899966716766,
               "xPoints": 7.200239239765033,
-              "position": 4,
+              "position": 5,
               "xgDiff": -1.2047000527381897,
               "xgConcededDiff": 3.7951000332832336,
               "xPointsDiff": -5.200239239765033,
-              "xPosition": 4,
-              "idx": 4,
-              "xPositionDiff": 13,
-              "qualColor": "#2AD572"
+              "xPosition": 5,
+              "idx": 5,
+              "xPositionDiff": 12,
+              "qualColor": "#0046A7"
             },
             {
               "name": "Deportivo Alavés",
@@ -1664,14 +1691,14 @@
               "xg": 5.851700127124786,
               "xgConceded": 4.041700094938278,
               "xPoints": 6.8230734378444575,
-              "position": 5,
+              "position": 6,
               "xgDiff": 4.148299872875214,
               "xgConcededDiff": -1.0417000949382782,
               "xPointsDiff": 3.1769265621555425,
-              "xPosition": 5,
-              "idx": 5,
-              "xPositionDiff": -3,
-              "qualColor": "#0046A7"
+              "xPosition": 6,
+              "idx": 6,
+              "xPositionDiff": -4,
+              "qualColor": "#02CCF0"
             },
             {
               "name": "Racing Santander",
@@ -1691,14 +1718,14 @@
               "xg": 5.3725999891757965,
               "xgConceded": 4.550100028514862,
               "xPoints": 6.098485801217195,
-              "position": 6,
+              "position": 7,
               "xgDiff": 1.6274000108242035,
               "xgConcededDiff": 3.449899971485138,
               "xPointsDiff": -2.098485801217195,
-              "xPosition": 6,
-              "idx": 6,
-              "xPositionDiff": 7,
-              "qualColor": "#02CCF0"
+              "xPosition": 7,
+              "idx": 7,
+              "xPositionDiff": 6,
+              "qualColor": null
             },
             {
               "name": "Real Sociedad",
@@ -1718,13 +1745,13 @@
               "xg": 5.579299867153168,
               "xgConceded": 7.9894998371601105,
               "xPoints": 6.021823953869346,
-              "position": 7,
+              "position": 8,
               "xgDiff": 0.4207001328468323,
               "xgConcededDiff": 0.010500162839889526,
               "xPointsDiff": 0.9781760461306543,
-              "xPosition": 7,
-              "idx": 7,
-              "xPositionDiff": 2,
+              "xPosition": 8,
+              "idx": 8,
+              "xPositionDiff": 1,
               "qualColor": null
             },
             {
@@ -1745,13 +1772,13 @@
               "xg": 5.813900023698807,
               "xgConceded": 7.255299866199493,
               "xPoints": 5.796697829342189,
-              "position": 8,
+              "position": 9,
               "xgDiff": 0.18609997630119324,
               "xgConcededDiff": -2.2552998661994934,
               "xPointsDiff": 0.2033021706578113,
-              "xPosition": 8,
-              "idx": 8,
-              "xPositionDiff": 2,
+              "xPosition": 9,
+              "idx": 9,
+              "xPositionDiff": 1,
               "qualColor": null
             },
             {
@@ -1772,13 +1799,13 @@
               "xg": 5.346699893474579,
               "xgConceded": 7.013099938631058,
               "xPoints": 5.634625296426395,
-              "position": 9,
+              "position": 10,
               "xgDiff": -0.34669989347457886,
               "xgConcededDiff": 4.986900061368942,
               "xPointsDiff": -4.634625296426395,
-              "xPosition": 9,
-              "idx": 9,
-              "xPositionDiff": 10,
+              "xPosition": 10,
+              "idx": 10,
+              "xPositionDiff": 9,
               "qualColor": null
             },
             {
@@ -1799,13 +1826,13 @@
               "xg": 4.522499978542328,
               "xgConceded": 5.3649000227451324,
               "xPoints": 5.348369547548333,
-              "position": 10,
+              "position": 11,
               "xgDiff": 1.4775000214576721,
               "xgConcededDiff": -0.36490002274513245,
               "xPointsDiff": -1.3483695475483328,
-              "xPosition": 10,
-              "idx": 10,
-              "xPositionDiff": 2,
+              "xPosition": 11,
+              "idx": 11,
+              "xPositionDiff": 1,
               "qualColor": null
             },
             {
@@ -1826,40 +1853,40 @@
               "xg": 5.205699950456619,
               "xgConceded": 5.674099981784821,
               "xPoints": 5.029095046241707,
-              "position": 11,
+              "position": 12,
               "xgDiff": -0.20569995045661926,
               "xgConcededDiff": -0.6740999817848206,
               "xPointsDiff": -0.029095046241707223,
-              "xPosition": 11,
-              "idx": 11,
-              "xPositionDiff": 0,
+              "xPosition": 12,
+              "idx": 12,
+              "xPositionDiff": -1,
               "qualColor": null
             },
             {
-              "name": "Sevilla",
-              "shortName": "Sevilla",
-              "id": 8302,
-              "pageUrl": "/teams/8302/overview/sevilla",
+              "name": "Valencia",
+              "shortName": "Valencia",
+              "id": 10267,
+              "pageUrl": "/teams/10267/overview/valencia",
               "ongoing": null,
-              "played": 4,
-              "wins": 2,
+              "played": 5,
+              "wins": 0,
               "draws": 1,
-              "losses": 1,
-              "scoresStr": "7-6",
-              "goalConDiff": 1,
-              "pts": 7,
-              "teamId": 8302,
-              "teamName": "Sevilla",
-              "xg": 4.87419992685318,
-              "xgConceded": 5.41759991645813,
-              "xPoints": 4.907049584079225,
-              "position": 12,
-              "xgDiff": 2.12580007314682,
-              "xgConcededDiff": 0.5824000835418701,
-              "xPointsDiff": 2.0929504159207752,
-              "xPosition": 12,
-              "idx": 12,
-              "xPositionDiff": -5,
+              "losses": 4,
+              "scoresStr": "1-10",
+              "goalConDiff": -9,
+              "pts": 1,
+              "teamId": 10267,
+              "teamName": "Valencia",
+              "xg": 3.9578999057412148,
+              "xgConceded": 8.032999753952026,
+              "xPoints": 4.800549414213469,
+              "position": 13,
+              "xgDiff": -2.9578999057412148,
+              "xgConcededDiff": 1.9670002460479736,
+              "xPointsDiff": -3.800549414213469,
+              "xPosition": 13,
+              "idx": 13,
+              "xPositionDiff": 7,
               "qualColor": null
             },
             {
@@ -1880,13 +1907,13 @@
               "xg": 4.389500007033348,
               "xgConceded": 5.646600067615509,
               "xPoints": 4.632078460017377,
-              "position": 13,
+              "position": 14,
               "xgDiff": -3.389500007033348,
               "xgConcededDiff": 1.353399932384491,
               "xPointsDiff": -2.632078460017377,
-              "xPosition": 13,
-              "idx": 13,
-              "xPositionDiff": 5,
+              "xPosition": 14,
+              "idx": 14,
+              "xPositionDiff": 4,
               "qualColor": null
             },
             {
@@ -1907,40 +1934,13 @@
               "xg": 3.654599964618683,
               "xgConceded": 6.053599998354912,
               "xPoints": 4.595625784091153,
-              "position": 14,
+              "position": 15,
               "xgDiff": 3.345400035381317,
               "xgConcededDiff": -0.053599998354911804,
               "xPointsDiff": 2.404374215908847,
-              "xPosition": 14,
-              "idx": 14,
-              "xPositionDiff": -8,
-              "qualColor": null
-            },
-            {
-              "name": "Valencia",
-              "shortName": "Valencia",
-              "id": 10267,
-              "pageUrl": "/teams/10267/overview/valencia",
-              "ongoing": null,
-              "played": 4,
-              "wins": 0,
-              "draws": 1,
-              "losses": 3,
-              "scoresStr": "1-9",
-              "goalConDiff": -8,
-              "pts": 1,
-              "teamId": 10267,
-              "teamName": "Valencia",
-              "xg": 3.8815999031066895,
-              "xgConceded": 6.830699801445007,
-              "xPoints": 4.469022743691598,
-              "position": 15,
-              "xgDiff": -2.8815999031066895,
-              "xgConcededDiff": 2.1693001985549927,
-              "xPointsDiff": -3.469022743691598,
               "xPosition": 15,
               "idx": 15,
-              "xPositionDiff": 5,
+              "xPositionDiff": -8,
               "qualColor": null
             },
             {
@@ -2021,7 +2021,7 @@
               "xPointsDiff": 4.25103655446907,
               "xPosition": 18,
               "idx": 18,
-              "xPositionDiff": -13,
+              "xPositionDiff": -12,
               "qualColor": "#FF4646"
             },
             {
@@ -2048,7 +2048,7 @@
               "xPointsDiff": 5.792873593230521,
               "xPosition": 19,
               "idx": 19,
-              "xPositionDiff": -15,
+              "xPositionDiff": -14,
               "qualColor": "#FF4646"
             },
             {
@@ -2101,7 +2101,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370.png",
             "linkToMatch": "/matches/sevilla-vs-rayo-vallecano/2ar4ua#5868019",
             "date": null,
             "teamPageUrl": "/teams/8370/overview/rayo-vallecano",
@@ -2131,7 +2131,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
             "linkToMatch": "/matches/sevilla-vs-athletic-club/2a7iew#5868021",
             "date": null,
             "teamPageUrl": "/teams/8315/overview/athletic-club",
@@ -2161,7 +2161,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906.png",
             "linkToMatch": "/matches/sevilla-vs-atletico-madrid/2qpc8y#5868040",
             "date": null,
             "teamPageUrl": "/teams/9906/overview/atletico-madrid",
@@ -2191,7 +2191,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png",
             "linkToMatch": "/matches/sevilla-vs-espanyol/2cmp5w#5868045",
             "date": null,
             "teamPageUrl": "/teams/8558/overview/espanyol",
@@ -2217,13 +2217,43 @@
               "shortName": "Sevilla",
               "isOurTeam": true
             }
+          },
+          {
+            "result": 1,
+            "resultString": "W",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
+            "linkToMatch": "/matches/sevilla-vs-valencia/2unl97#5868059",
+            "date": null,
+            "teamPageUrl": "/teams/10267/overview/valencia",
+            "tooltipText": {
+              "utcTime": "2026-09-11T19:00:00Z",
+              "homeTeam": "Sevilla",
+              "homeTeamId": 8302,
+              "homeScore": 1,
+              "awayTeam": "Valencia",
+              "awayTeamId": 10267,
+              "awayScore": 0
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "8302",
+              "name": "Sevilla",
+              "shortName": "Sevilla",
+              "isOurTeam": true
+            },
+            "away": {
+              "id": "10267",
+              "name": "Valencia",
+              "shortName": "Valencia",
+              "isOurTeam": false
+            }
           }
         ],
         "8305": [
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png",
             "linkToMatch": "/matches/getafe-vs-deportivo-alaves/2qawwk#5868011",
             "date": null,
             "teamPageUrl": "/teams/9866/overview/deportivo-alaves",
@@ -2253,7 +2283,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696.png",
             "linkToMatch": "/matches/getafe-vs-racing-santander/2e1vat#5868026",
             "date": null,
             "teamPageUrl": "/teams/8696/overview/racing-santander",
@@ -2283,7 +2313,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
             "linkToMatch": "/matches/getafe-vs-osasuna/2askb1#5868036",
             "date": null,
             "teamPageUrl": "/teams/8371/overview/osasuna",
@@ -2313,7 +2343,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
             "linkToMatch": "/matches/getafe-vs-celta-vigo/2qs2ma#5868046",
             "date": null,
             "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -2345,7 +2375,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
             "linkToMatch": "/matches/sevilla-vs-athletic-club/2a7iew#5868021",
             "date": null,
             "teamPageUrl": "/teams/8302/overview/sevilla",
@@ -2375,7 +2405,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
             "linkToMatch": "/matches/athletic-club-vs-barcelona/2diy4x#5868016",
             "date": null,
             "teamPageUrl": "/teams/8634/overview/barcelona",
@@ -2405,7 +2435,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
             "linkToMatch": "/matches/athletic-club-vs-celta-vigo/2qvz7j#5868032",
             "date": null,
             "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -2435,7 +2465,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906.png",
             "linkToMatch": "/matches/athletic-club-vs-atletico-madrid/2queyl#5868042",
             "date": null,
             "teamPageUrl": "/teams/9906/overview/atletico-madrid",
@@ -2467,7 +2497,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
             "linkToMatch": "/matches/sevilla-vs-rayo-vallecano/2ar4ua#5868019",
             "date": null,
             "teamPageUrl": "/teams/8302/overview/sevilla",
@@ -2497,7 +2527,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png",
             "linkToMatch": "/matches/rayo-vallecano-vs-deportivo-alaves/2r09ww#5868029",
             "date": null,
             "teamPageUrl": "/teams/9866/overview/deportivo-alaves",
@@ -2527,7 +2557,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
             "linkToMatch": "/matches/rayo-vallecano-vs-barcelona/2e2ym0#5868034",
             "date": null,
             "teamPageUrl": "/teams/8634/overview/barcelona",
@@ -2557,7 +2587,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696.png",
             "linkToMatch": "/matches/rayo-vallecano-vs-racing-santander/2eplmn#5868048",
             "date": null,
             "teamPageUrl": "/teams/8696/overview/racing-santander",
@@ -2589,7 +2619,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
             "linkToMatch": "/matches/osasuna-vs-levante/2dk1c1#5868028",
             "date": null,
             "teamPageUrl": "/teams/8581/overview/levante",
@@ -2619,7 +2649,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
             "linkToMatch": "/matches/osasuna-vs-celta-vigo/2rhvxv#5868013",
             "date": null,
             "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -2649,7 +2679,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
             "linkToMatch": "/matches/getafe-vs-osasuna/2askb1#5868036",
             "date": null,
             "teamPageUrl": "/teams/8305/overview/getafe",
@@ -2679,7 +2709,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png",
             "linkToMatch": "/matches/osasuna-vs-deportivo-alaves/2r0nzh#5868041",
             "date": null,
             "teamPageUrl": "/teams/9866/overview/deportivo-alaves",
@@ -2711,7 +2741,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
             "linkToMatch": "/matches/espanyol-vs-levante/2fgcwj#5868015",
             "date": null,
             "teamPageUrl": "/teams/8581/overview/levante",
@@ -2741,7 +2771,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
             "linkToMatch": "/matches/espanyol-vs-real-madrid/2fzhol#5868025",
             "date": null,
             "teamPageUrl": "/teams/8633/overview/real-madrid",
@@ -2771,7 +2801,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
             "linkToMatch": "/matches/espanyol-vs-real-sociedad/2f8nc1#5868039",
             "date": null,
             "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -2801,7 +2831,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
             "linkToMatch": "/matches/sevilla-vs-espanyol/2cmp5w#5868045",
             "date": null,
             "teamPageUrl": "/teams/8302/overview/sevilla",
@@ -2833,7 +2863,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
             "linkToMatch": "/matches/real-sociedad-vs-real-betis/2fp6jh#5868023",
             "date": null,
             "teamPageUrl": "/teams/8603/overview/real-betis",
@@ -2863,7 +2893,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
             "linkToMatch": "/matches/real-sociedad-vs-real-madrid/2g087q#5868018",
             "date": null,
             "teamPageUrl": "/teams/8633/overview/real-madrid",
@@ -2893,7 +2923,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png",
             "linkToMatch": "/matches/espanyol-vs-real-sociedad/2f8nc1#5868039",
             "date": null,
             "teamPageUrl": "/teams/8558/overview/espanyol",
@@ -2923,7 +2953,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
             "linkToMatch": "/matches/real-sociedad-vs-celta-vigo/2tkbrv#5868070",
             "date": null,
             "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -2953,7 +2983,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268.png",
             "linkToMatch": "/matches/real-sociedad-vs-elche/2xjeda#5868044",
             "date": null,
             "teamPageUrl": "/teams/10268/overview/elche",
@@ -2985,7 +3015,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png",
             "linkToMatch": "/matches/espanyol-vs-levante/2fgcwj#5868015",
             "date": null,
             "teamPageUrl": "/teams/8558/overview/espanyol",
@@ -3015,7 +3045,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
             "linkToMatch": "/matches/osasuna-vs-levante/2dk1c1#5868028",
             "date": null,
             "teamPageUrl": "/teams/8371/overview/osasuna",
@@ -3045,7 +3075,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
             "linkToMatch": "/matches/levante-vs-real-betis/2fwwtn#5868035",
             "date": null,
             "teamPageUrl": "/teams/8603/overview/real-betis",
@@ -3075,7 +3105,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
             "linkToMatch": "/matches/levante-vs-malaga/2tafoj#5868047",
             "date": null,
             "teamPageUrl": "/teams/9864/overview/malaga",
@@ -3107,7 +3137,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
             "linkToMatch": "/matches/real-sociedad-vs-real-betis/2fp6jh#5868023",
             "date": null,
             "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -3137,7 +3167,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
             "linkToMatch": "/matches/real-betis-vs-valencia/2y0d9k#5868020",
             "date": null,
             "teamPageUrl": "/teams/10267/overview/valencia",
@@ -3167,7 +3197,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
             "linkToMatch": "/matches/levante-vs-real-betis/2fwwtn#5868035",
             "date": null,
             "teamPageUrl": "/teams/8581/overview/levante",
@@ -3197,7 +3227,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
             "linkToMatch": "/matches/real-betis-vs-real-madrid/2gg3e3#5868043",
             "date": null,
             "teamPageUrl": "/teams/8633/overview/real-madrid",
@@ -3229,7 +3259,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png",
             "linkToMatch": "/matches/espanyol-vs-real-madrid/2fzhol#5868025",
             "date": null,
             "teamPageUrl": "/teams/8558/overview/espanyol",
@@ -3259,7 +3289,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
             "linkToMatch": "/matches/real-sociedad-vs-real-madrid/2g087q#5868018",
             "date": null,
             "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -3289,7 +3319,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
             "linkToMatch": "/matches/real-madrid-vs-malaga/2tv0tl#5868038",
             "date": null,
             "teamPageUrl": "/teams/9864/overview/malaga",
@@ -3319,7 +3349,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
             "linkToMatch": "/matches/real-betis-vs-real-madrid/2gg3e3#5868043",
             "date": null,
             "teamPageUrl": "/teams/8603/overview/real-betis",
@@ -3351,7 +3381,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268.png",
             "linkToMatch": "/matches/barcelona-vs-elche/2ydbmf#5868024",
             "date": null,
             "teamPageUrl": "/teams/10268/overview/elche",
@@ -3381,7 +3411,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
             "linkToMatch": "/matches/athletic-club-vs-barcelona/2diy4x#5868016",
             "date": null,
             "teamPageUrl": "/teams/8315/overview/athletic-club",
@@ -3411,7 +3441,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370.png",
             "linkToMatch": "/matches/rayo-vallecano-vs-barcelona/2e2ym0#5868034",
             "date": null,
             "teamPageUrl": "/teams/8370/overview/rayo-vallecano",
@@ -3441,7 +3471,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
             "linkToMatch": "/matches/barcelona-vs-valencia/2ycx1d#5868049",
             "date": null,
             "teamPageUrl": "/teams/10267/overview/valencia",
@@ -3473,7 +3503,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
             "linkToMatch": "/matches/racing-santander-vs-villarreal/2ycx33#5868017",
             "date": null,
             "teamPageUrl": "/teams/10205/overview/villarreal",
@@ -3503,7 +3533,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
             "linkToMatch": "/matches/getafe-vs-racing-santander/2e1vat#5868026",
             "date": null,
             "teamPageUrl": "/teams/8305/overview/getafe",
@@ -3533,7 +3563,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268.png",
             "linkToMatch": "/matches/racing-santander-vs-elche/2z2hfu#5868037",
             "date": null,
             "teamPageUrl": "/teams/10268/overview/elche",
@@ -3563,7 +3593,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370.png",
             "linkToMatch": "/matches/rayo-vallecano-vs-racing-santander/2eplmn#5868048",
             "date": null,
             "teamPageUrl": "/teams/8370/overview/rayo-vallecano",
@@ -3595,7 +3625,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268.png",
             "linkToMatch": "/matches/deportivo-coruna-vs-elche/3bp0b9#5868014",
             "date": null,
             "teamPageUrl": "/teams/10268/overview/elche",
@@ -3625,7 +3655,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
             "linkToMatch": "/matches/deportivo-coruna-vs-malaga/36x4q0#5868027",
             "date": null,
             "teamPageUrl": "/teams/9864/overview/malaga",
@@ -3655,7 +3685,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
             "linkToMatch": "/matches/deportivo-coruna-vs-valencia/3bokua#5868033",
             "date": null,
             "teamPageUrl": "/teams/10267/overview/valencia",
@@ -3685,7 +3715,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
             "linkToMatch": "/matches/deportivo-coruna-vs-villarreal/3axz49#5868050",
             "date": null,
             "teamPageUrl": "/teams/10205/overview/villarreal",
@@ -3717,7 +3747,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906.png",
             "linkToMatch": "/matches/malaga-vs-atletico-madrid/38d3a9#5868012",
             "date": null,
             "teamPageUrl": "/teams/9906/overview/atletico-madrid",
@@ -3747,7 +3777,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
             "linkToMatch": "/matches/deportivo-coruna-vs-malaga/36x4q0#5868027",
             "date": null,
             "teamPageUrl": "/teams/9783/overview/deportivo-coruna",
@@ -3777,7 +3807,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
             "linkToMatch": "/matches/real-madrid-vs-malaga/2tv0tl#5868038",
             "date": null,
             "teamPageUrl": "/teams/8633/overview/real-madrid",
@@ -3807,7 +3837,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
             "linkToMatch": "/matches/levante-vs-malaga/2tafoj#5868047",
             "date": null,
             "teamPageUrl": "/teams/8581/overview/levante",
@@ -3839,7 +3869,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
             "linkToMatch": "/matches/getafe-vs-deportivo-alaves/2qawwk#5868011",
             "date": null,
             "teamPageUrl": "/teams/8305/overview/getafe",
@@ -3869,7 +3899,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370.png",
             "linkToMatch": "/matches/rayo-vallecano-vs-deportivo-alaves/2r09ww#5868029",
             "date": null,
             "teamPageUrl": "/teams/8370/overview/rayo-vallecano",
@@ -3899,7 +3929,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
             "linkToMatch": "/matches/deportivo-alaves-vs-villarreal/3bxlyu#5868031",
             "date": null,
             "teamPageUrl": "/teams/10205/overview/villarreal",
@@ -3929,7 +3959,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
             "linkToMatch": "/matches/osasuna-vs-deportivo-alaves/2r0nzh#5868041",
             "date": null,
             "teamPageUrl": "/teams/8371/overview/osasuna",
@@ -3961,7 +3991,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
             "linkToMatch": "/matches/malaga-vs-atletico-madrid/38d3a9#5868012",
             "date": null,
             "teamPageUrl": "/teams/9864/overview/malaga",
@@ -3991,7 +4021,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
             "linkToMatch": "/matches/atletico-madrid-vs-villarreal/3ceu3u#5868022",
             "date": null,
             "teamPageUrl": "/teams/10205/overview/villarreal",
@@ -4021,7 +4051,7 @@
           {
             "result": 1,
             "resultString": "W",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
             "linkToMatch": "/matches/sevilla-vs-atletico-madrid/2qpc8y#5868040",
             "date": null,
             "teamPageUrl": "/teams/8302/overview/sevilla",
@@ -4051,7 +4081,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
             "linkToMatch": "/matches/athletic-club-vs-atletico-madrid/2queyl#5868042",
             "date": null,
             "teamPageUrl": "/teams/8315/overview/athletic-club",
@@ -4083,7 +4113,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
             "linkToMatch": "/matches/celta-vigo-vs-valencia/3d7bzj#5868030",
             "date": null,
             "teamPageUrl": "/teams/10267/overview/valencia",
@@ -4113,7 +4143,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
             "linkToMatch": "/matches/osasuna-vs-celta-vigo/2rhvxv#5868013",
             "date": null,
             "teamPageUrl": "/teams/8371/overview/osasuna",
@@ -4143,7 +4173,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
             "linkToMatch": "/matches/athletic-club-vs-celta-vigo/2qvz7j#5868032",
             "date": null,
             "teamPageUrl": "/teams/8315/overview/athletic-club",
@@ -4173,7 +4203,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
             "linkToMatch": "/matches/real-sociedad-vs-celta-vigo/2tkbrv#5868070",
             "date": null,
             "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -4203,7 +4233,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
             "linkToMatch": "/matches/getafe-vs-celta-vigo/2qs2ma#5868046",
             "date": null,
             "teamPageUrl": "/teams/8305/overview/getafe",
@@ -4235,7 +4265,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696.png",
             "linkToMatch": "/matches/racing-santander-vs-villarreal/2ycx33#5868017",
             "date": null,
             "teamPageUrl": "/teams/8696/overview/racing-santander",
@@ -4265,7 +4295,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906.png",
             "linkToMatch": "/matches/atletico-madrid-vs-villarreal/3ceu3u#5868022",
             "date": null,
             "teamPageUrl": "/teams/9906/overview/atletico-madrid",
@@ -4295,7 +4325,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png",
             "linkToMatch": "/matches/deportivo-alaves-vs-villarreal/3bxlyu#5868031",
             "date": null,
             "teamPageUrl": "/teams/9866/overview/deportivo-alaves",
@@ -4325,7 +4355,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
             "linkToMatch": "/matches/deportivo-coruna-vs-villarreal/3axz49#5868050",
             "date": null,
             "teamPageUrl": "/teams/9783/overview/deportivo-coruna",
@@ -4357,7 +4387,7 @@
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
             "linkToMatch": "/matches/celta-vigo-vs-valencia/3d7bzj#5868030",
             "date": null,
             "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -4387,7 +4417,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
             "linkToMatch": "/matches/real-betis-vs-valencia/2y0d9k#5868020",
             "date": null,
             "teamPageUrl": "/teams/8603/overview/real-betis",
@@ -4417,7 +4447,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
             "linkToMatch": "/matches/deportivo-coruna-vs-valencia/3bokua#5868033",
             "date": null,
             "teamPageUrl": "/teams/9783/overview/deportivo-coruna",
@@ -4447,7 +4477,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
             "linkToMatch": "/matches/barcelona-vs-valencia/2ycx1d#5868049",
             "date": null,
             "teamPageUrl": "/teams/8634/overview/barcelona",
@@ -4473,13 +4503,43 @@
               "shortName": "Barcelona",
               "isOurTeam": false
             }
+          },
+          {
+            "result": -1,
+            "resultString": "L",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
+            "linkToMatch": "/matches/sevilla-vs-valencia/2unl97#5868059",
+            "date": null,
+            "teamPageUrl": "/teams/8302/overview/sevilla",
+            "tooltipText": {
+              "utcTime": "2026-09-11T19:00:00Z",
+              "homeTeam": "Sevilla",
+              "homeTeamId": 8302,
+              "homeScore": 1,
+              "awayTeam": "Valencia",
+              "awayTeamId": 10267,
+              "awayScore": 0
+            },
+            "score": "1 - 0",
+            "home": {
+              "id": "8302",
+              "name": "Sevilla",
+              "shortName": "Sevilla",
+              "isOurTeam": false
+            },
+            "away": {
+              "id": "10267",
+              "name": "Valencia",
+              "shortName": "Valencia",
+              "isOurTeam": true
+            }
           }
         ],
         "10268": [
           {
             "result": 0,
             "resultString": "D",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
             "linkToMatch": "/matches/deportivo-coruna-vs-elche/3bp0b9#5868014",
             "date": null,
             "teamPageUrl": "/teams/9783/overview/deportivo-coruna",
@@ -4509,7 +4569,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
             "linkToMatch": "/matches/barcelona-vs-elche/2ydbmf#5868024",
             "date": null,
             "teamPageUrl": "/teams/8634/overview/barcelona",
@@ -4539,7 +4599,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696.png",
             "linkToMatch": "/matches/racing-santander-vs-elche/2z2hfu#5868037",
             "date": null,
             "teamPageUrl": "/teams/8696/overview/racing-santander",
@@ -4569,7 +4629,7 @@
           {
             "result": -1,
             "resultString": "L",
-            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+            "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
             "linkToMatch": "/matches/real-sociedad-vs-elche/2xjeda#5868044",
             "date": null,
             "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -4600,20 +4660,20 @@
       },
       "nextOpponent": {
         "8302": [
-          "10267",
-          "Valencia",
-          "5868059",
+          "9783",
+          "Deportivo A Coruña",
+          "5868064",
+          {
+            "id": "9783",
+            "name": "Deportivo A Coruña",
+            "shortName": "Deportivo A Coruña"
+          },
           {
             "id": "8302",
             "name": "Sevilla",
             "shortName": "Sevilla"
           },
-          {
-            "id": "10267",
-            "name": "Valencia",
-            "shortName": "Valencia"
-          },
-          "2026-09-11T19:00:00Z"
+          "2026-09-16T17:00:00Z"
         ],
         "8305": [
           "9783",
@@ -4888,20 +4948,20 @@
           "2026-09-14T19:00:00Z"
         ],
         "10267": [
-          "8302",
-          "Sevilla",
-          "5868059",
+          "9866",
+          "Deportivo Alavés",
+          "5868061",
           {
-            "id": "8302",
-            "name": "Sevilla",
-            "shortName": "Sevilla"
+            "id": "9866",
+            "name": "Deportivo Alavés",
+            "shortName": "Deportivo Alavés"
           },
           {
             "id": "10267",
             "name": "Valencia",
             "shortName": "Valencia"
           },
-          "2026-09-11T19:00:00Z"
+          "2026-09-15T18:00:00Z"
         ],
         "10268": [
           "8315",
@@ -8380,6 +8440,23 @@
                 "qualColor": "#2AD572"
               },
               {
+                "name": "Sevilla",
+                "shortName": "Sevilla",
+                "id": 8302,
+                "pageUrl": "/teams/8302/overview/sevilla",
+                "deduction": null,
+                "ongoing": null,
+                "played": 5,
+                "wins": 3,
+                "draws": 1,
+                "losses": 1,
+                "scoresStr": "8-6",
+                "goalConDiff": 2,
+                "pts": 10,
+                "idx": 3,
+                "qualColor": "#2AD572"
+              },
+              {
                 "name": "Real Madrid",
                 "shortName": "Real Madrid",
                 "id": 8633,
@@ -8393,7 +8470,7 @@
                 "scoresStr": "10-3",
                 "goalConDiff": 7,
                 "pts": 9,
-                "idx": 3,
+                "idx": 4,
                 "qualColor": "#2AD572"
               },
               {
@@ -8410,8 +8487,8 @@
                 "scoresStr": "5-5",
                 "goalConDiff": 0,
                 "pts": 9,
-                "idx": 4,
-                "qualColor": "#2AD572"
+                "idx": 5,
+                "qualColor": "#0046A7"
               },
               {
                 "name": "Deportivo A Coruña",
@@ -8427,31 +8504,14 @@
                 "scoresStr": "8-5",
                 "goalConDiff": 3,
                 "pts": 8,
-                "idx": 5,
-                "qualColor": "#0046A7"
+                "idx": 6,
+                "qualColor": "#02CCF0"
               },
               {
                 "name": "Atlético Madrid",
                 "shortName": "Atlético Madrid",
                 "id": 9906,
                 "pageUrl": "/teams/9906/overview/atletico-madrid",
-                "deduction": null,
-                "ongoing": null,
-                "played": 4,
-                "wins": 2,
-                "draws": 1,
-                "losses": 1,
-                "scoresStr": "7-6",
-                "goalConDiff": 1,
-                "pts": 7,
-                "idx": 6,
-                "qualColor": "#02CCF0"
-              },
-              {
-                "name": "Sevilla",
-                "shortName": "Sevilla",
-                "id": 8302,
-                "pageUrl": "/teams/8302/overview/sevilla",
                 "deduction": null,
                 "ongoing": null,
                 "played": 4,
@@ -8675,12 +8735,12 @@
                 "pageUrl": "/teams/10267/overview/valencia",
                 "deduction": null,
                 "ongoing": null,
-                "played": 4,
+                "played": 5,
                 "wins": 0,
                 "draws": 1,
-                "losses": 3,
-                "scoresStr": "1-9",
-                "goalConDiff": -8,
+                "losses": 4,
+                "scoresStr": "1-10",
+                "goalConDiff": -9,
                 "pts": 1,
                 "idx": 20,
                 "qualColor": "#FF4646"
@@ -8760,6 +8820,24 @@
                 "qualColor": "#2AD572"
               },
               {
+                "name": "Sevilla",
+                "shortName": "Sevilla",
+                "id": 8302,
+                "pageUrl": "/teams/8302/overview/sevilla",
+                "deduction": null,
+                "ongoing": null,
+                "played": 3,
+                "wins": 2,
+                "draws": 0,
+                "losses": 1,
+                "scoresStr": "4-4",
+                "goalConDiff": 0,
+                "goalsScored": 4,
+                "pts": 6,
+                "idx": 5,
+                "qualColor": "#0046A7"
+              },
+              {
                 "name": "Espanyol",
                 "shortName": "Espanyol",
                 "id": 8558,
@@ -8774,8 +8852,8 @@
                 "goalConDiff": 2,
                 "goalsScored": 5,
                 "pts": 4,
-                "idx": 5,
-                "qualColor": "#0046A7"
+                "idx": 6,
+                "qualColor": "#02CCF0"
               },
               {
                 "name": "Deportivo A Coruña",
@@ -8792,8 +8870,8 @@
                 "goalConDiff": 2,
                 "goalsScored": 4,
                 "pts": 4,
-                "idx": 6,
-                "qualColor": "#02CCF0"
+                "idx": 7,
+                "qualColor": null
               },
               {
                 "name": "Atlético Madrid",
@@ -8810,7 +8888,7 @@
                 "goalConDiff": 2,
                 "goalsScored": 4,
                 "pts": 4,
-                "idx": 7,
+                "idx": 8,
                 "qualColor": null
               },
               {
@@ -8828,7 +8906,7 @@
                 "goalConDiff": 1,
                 "goalsScored": 5,
                 "pts": 4,
-                "idx": 8,
+                "idx": 9,
                 "qualColor": null
               },
               {
@@ -8846,7 +8924,7 @@
                 "goalConDiff": 1,
                 "goalsScored": 4,
                 "pts": 4,
-                "idx": 9,
+                "idx": 10,
                 "qualColor": null
               },
               {
@@ -8864,7 +8942,7 @@
                 "goalConDiff": 1,
                 "goalsScored": 2,
                 "pts": 4,
-                "idx": 10,
+                "idx": 11,
                 "qualColor": null
               },
               {
@@ -8882,7 +8960,7 @@
                 "goalConDiff": 1,
                 "goalsScored": 2,
                 "pts": 4,
-                "idx": 11,
+                "idx": 12,
                 "qualColor": null
               },
               {
@@ -8900,7 +8978,7 @@
                 "goalConDiff": 1,
                 "goalsScored": 1,
                 "pts": 4,
-                "idx": 12,
+                "idx": 13,
                 "qualColor": null
               },
               {
@@ -8918,7 +8996,7 @@
                 "goalConDiff": 3,
                 "goalsScored": 5,
                 "pts": 3,
-                "idx": 13,
+                "idx": 14,
                 "qualColor": null
               },
               {
@@ -8935,24 +9013,6 @@
                 "scoresStr": "4-3",
                 "goalConDiff": 1,
                 "goalsScored": 4,
-                "pts": 3,
-                "idx": 14,
-                "qualColor": null
-              },
-              {
-                "name": "Sevilla",
-                "shortName": "Sevilla",
-                "id": 8302,
-                "pageUrl": "/teams/8302/overview/sevilla",
-                "deduction": null,
-                "ongoing": null,
-                "played": 2,
-                "wins": 1,
-                "draws": 0,
-                "losses": 1,
-                "scoresStr": "3-4",
-                "goalConDiff": -1,
-                "goalsScored": 3,
                 "pts": 3,
                 "idx": 15,
                 "qualColor": null
@@ -9344,12 +9404,12 @@
                 "pageUrl": "/teams/10267/overview/valencia",
                 "deduction": null,
                 "ongoing": null,
-                "played": 1,
+                "played": 2,
                 "wins": 0,
                 "draws": 0,
-                "losses": 1,
-                "scoresStr": "1-3",
-                "goalConDiff": -2,
+                "losses": 2,
+                "scoresStr": "1-4",
+                "goalConDiff": -3,
                 "goalsScored": 1,
                 "pts": 0,
                 "idx": 17,
@@ -9448,6 +9508,24 @@
                 "qualColor": "#2AD572"
               },
               {
+                "name": "Sevilla",
+                "shortName": "Sevilla",
+                "featuredInMatch": false,
+                "id": 8302,
+                "pageUrl": "/teams/8302/overview/sevilla",
+                "played": 5,
+                "wins": 3,
+                "draws": 1,
+                "losses": 1,
+                "scoresStr": "8-6",
+                "goalConDiff": 2,
+                "goalsScored": 8,
+                "pts": 10,
+                "ongoing": null,
+                "idx": 3,
+                "qualColor": "#2AD572"
+              },
+              {
                 "name": "Real Madrid",
                 "shortName": "Real Madrid",
                 "featuredInMatch": false,
@@ -9462,7 +9540,7 @@
                 "goalsScored": 10,
                 "pts": 9,
                 "ongoing": null,
-                "idx": 3,
+                "idx": 4,
                 "qualColor": "#2AD572"
               },
               {
@@ -9480,8 +9558,8 @@
                 "goalsScored": 5,
                 "pts": 9,
                 "ongoing": null,
-                "idx": 4,
-                "qualColor": "#2AD572"
+                "idx": 5,
+                "qualColor": "#0046A7"
               },
               {
                 "name": "Deportivo A Coruña",
@@ -9497,24 +9575,6 @@
                 "goalConDiff": 3,
                 "goalsScored": 8,
                 "pts": 8,
-                "ongoing": null,
-                "idx": 5,
-                "qualColor": "#0046A7"
-              },
-              {
-                "name": "Sevilla",
-                "shortName": "Sevilla",
-                "featuredInMatch": false,
-                "id": 8302,
-                "pageUrl": "/teams/8302/overview/sevilla",
-                "played": 4,
-                "wins": 2,
-                "draws": 1,
-                "losses": 1,
-                "scoresStr": "7-6",
-                "goalConDiff": 1,
-                "goalsScored": 7,
-                "pts": 7,
                 "ongoing": null,
                 "idx": 6,
                 "qualColor": "#02CCF0"
@@ -9759,12 +9819,12 @@
                 "featuredInMatch": false,
                 "id": 10267,
                 "pageUrl": "/teams/10267/overview/valencia",
-                "played": 4,
+                "played": 5,
                 "wins": 0,
                 "draws": 1,
-                "losses": 3,
-                "scoresStr": "1-9",
-                "goalConDiff": -8,
+                "losses": 4,
+                "scoresStr": "1-10",
+                "goalConDiff": -9,
                 "goalsScored": 1,
                 "pts": 1,
                 "ongoing": null,
@@ -9824,7 +9884,7 @@
                 "xPointsDiff": -1.716962937250699,
                 "xPosition": 2,
                 "idx": 2,
-                "xPositionDiff": 1,
+                "xPositionDiff": 2,
                 "qualColor": "#2AD572"
               },
               {
@@ -9855,6 +9915,33 @@
                 "qualColor": "#2AD572"
               },
               {
+                "name": "Sevilla",
+                "shortName": "Sevilla",
+                "id": 8302,
+                "pageUrl": "/teams/8302/overview/sevilla",
+                "ongoing": null,
+                "played": 5,
+                "wins": 3,
+                "draws": 1,
+                "losses": 1,
+                "scoresStr": "8-6",
+                "goalConDiff": 2,
+                "pts": 10,
+                "teamId": 8302,
+                "teamName": "Sevilla",
+                "xg": 6.076499879360199,
+                "xgConceded": 5.493899919092655,
+                "xPoints": 7.304752580609767,
+                "position": 4,
+                "xgDiff": 1.923500120639801,
+                "xgConcededDiff": 0.5061000809073448,
+                "xPointsDiff": 2.695247419390233,
+                "xPosition": 4,
+                "idx": 4,
+                "xPositionDiff": -1,
+                "qualColor": "#2AD572"
+              },
+              {
                 "name": "Villarreal",
                 "shortName": "Villarreal",
                 "id": 10205,
@@ -9872,14 +9959,14 @@
                 "xg": 7.20470005273819,
                 "xgConceded": 4.204899966716766,
                 "xPoints": 7.200239239765033,
-                "position": 4,
+                "position": 5,
                 "xgDiff": -1.2047000527381897,
                 "xgConcededDiff": 3.7951000332832336,
                 "xPointsDiff": -5.200239239765033,
-                "xPosition": 4,
-                "idx": 4,
-                "xPositionDiff": 13,
-                "qualColor": "#2AD572"
+                "xPosition": 5,
+                "idx": 5,
+                "xPositionDiff": 12,
+                "qualColor": "#0046A7"
               },
               {
                 "name": "Deportivo Alavés",
@@ -9899,14 +9986,14 @@
                 "xg": 5.851700127124786,
                 "xgConceded": 4.041700094938278,
                 "xPoints": 6.8230734378444575,
-                "position": 5,
+                "position": 6,
                 "xgDiff": 4.148299872875214,
                 "xgConcededDiff": -1.0417000949382782,
                 "xPointsDiff": 3.1769265621555425,
-                "xPosition": 5,
-                "idx": 5,
-                "xPositionDiff": -3,
-                "qualColor": "#0046A7"
+                "xPosition": 6,
+                "idx": 6,
+                "xPositionDiff": -4,
+                "qualColor": "#02CCF0"
               },
               {
                 "name": "Racing Santander",
@@ -9926,14 +10013,14 @@
                 "xg": 5.3725999891757965,
                 "xgConceded": 4.550100028514862,
                 "xPoints": 6.098485801217195,
-                "position": 6,
+                "position": 7,
                 "xgDiff": 1.6274000108242035,
                 "xgConcededDiff": 3.449899971485138,
                 "xPointsDiff": -2.098485801217195,
-                "xPosition": 6,
-                "idx": 6,
-                "xPositionDiff": 7,
-                "qualColor": "#02CCF0"
+                "xPosition": 7,
+                "idx": 7,
+                "xPositionDiff": 6,
+                "qualColor": null
               },
               {
                 "name": "Real Sociedad",
@@ -9953,13 +10040,13 @@
                 "xg": 5.579299867153168,
                 "xgConceded": 7.9894998371601105,
                 "xPoints": 6.021823953869346,
-                "position": 7,
+                "position": 8,
                 "xgDiff": 0.4207001328468323,
                 "xgConcededDiff": 0.010500162839889526,
                 "xPointsDiff": 0.9781760461306543,
-                "xPosition": 7,
-                "idx": 7,
-                "xPositionDiff": 2,
+                "xPosition": 8,
+                "idx": 8,
+                "xPositionDiff": 1,
                 "qualColor": null
               },
               {
@@ -9980,13 +10067,13 @@
                 "xg": 5.813900023698807,
                 "xgConceded": 7.255299866199493,
                 "xPoints": 5.796697829342189,
-                "position": 8,
+                "position": 9,
                 "xgDiff": 0.18609997630119324,
                 "xgConcededDiff": -2.2552998661994934,
                 "xPointsDiff": 0.2033021706578113,
-                "xPosition": 8,
-                "idx": 8,
-                "xPositionDiff": 2,
+                "xPosition": 9,
+                "idx": 9,
+                "xPositionDiff": 1,
                 "qualColor": null
               },
               {
@@ -10007,13 +10094,13 @@
                 "xg": 5.346699893474579,
                 "xgConceded": 7.013099938631058,
                 "xPoints": 5.634625296426395,
-                "position": 9,
+                "position": 10,
                 "xgDiff": -0.34669989347457886,
                 "xgConcededDiff": 4.986900061368942,
                 "xPointsDiff": -4.634625296426395,
-                "xPosition": 9,
-                "idx": 9,
-                "xPositionDiff": 10,
+                "xPosition": 10,
+                "idx": 10,
+                "xPositionDiff": 9,
                 "qualColor": null
               },
               {
@@ -10034,13 +10121,13 @@
                 "xg": 4.522499978542328,
                 "xgConceded": 5.3649000227451324,
                 "xPoints": 5.348369547548333,
-                "position": 10,
+                "position": 11,
                 "xgDiff": 1.4775000214576721,
                 "xgConcededDiff": -0.36490002274513245,
                 "xPointsDiff": -1.3483695475483328,
-                "xPosition": 10,
-                "idx": 10,
-                "xPositionDiff": 2,
+                "xPosition": 11,
+                "idx": 11,
+                "xPositionDiff": 1,
                 "qualColor": null
               },
               {
@@ -10061,40 +10148,40 @@
                 "xg": 5.205699950456619,
                 "xgConceded": 5.674099981784821,
                 "xPoints": 5.029095046241707,
-                "position": 11,
+                "position": 12,
                 "xgDiff": -0.20569995045661926,
                 "xgConcededDiff": -0.6740999817848206,
                 "xPointsDiff": -0.029095046241707223,
-                "xPosition": 11,
-                "idx": 11,
-                "xPositionDiff": 0,
+                "xPosition": 12,
+                "idx": 12,
+                "xPositionDiff": -1,
                 "qualColor": null
               },
               {
-                "name": "Sevilla",
-                "shortName": "Sevilla",
-                "id": 8302,
-                "pageUrl": "/teams/8302/overview/sevilla",
+                "name": "Valencia",
+                "shortName": "Valencia",
+                "id": 10267,
+                "pageUrl": "/teams/10267/overview/valencia",
                 "ongoing": null,
-                "played": 4,
-                "wins": 2,
+                "played": 5,
+                "wins": 0,
                 "draws": 1,
-                "losses": 1,
-                "scoresStr": "7-6",
-                "goalConDiff": 1,
-                "pts": 7,
-                "teamId": 8302,
-                "teamName": "Sevilla",
-                "xg": 4.87419992685318,
-                "xgConceded": 5.41759991645813,
-                "xPoints": 4.907049584079225,
-                "position": 12,
-                "xgDiff": 2.12580007314682,
-                "xgConcededDiff": 0.5824000835418701,
-                "xPointsDiff": 2.0929504159207752,
-                "xPosition": 12,
-                "idx": 12,
-                "xPositionDiff": -5,
+                "losses": 4,
+                "scoresStr": "1-10",
+                "goalConDiff": -9,
+                "pts": 1,
+                "teamId": 10267,
+                "teamName": "Valencia",
+                "xg": 3.9578999057412148,
+                "xgConceded": 8.032999753952026,
+                "xPoints": 4.800549414213469,
+                "position": 13,
+                "xgDiff": -2.9578999057412148,
+                "xgConcededDiff": 1.9670002460479736,
+                "xPointsDiff": -3.800549414213469,
+                "xPosition": 13,
+                "idx": 13,
+                "xPositionDiff": 7,
                 "qualColor": null
               },
               {
@@ -10115,13 +10202,13 @@
                 "xg": 4.389500007033348,
                 "xgConceded": 5.646600067615509,
                 "xPoints": 4.632078460017377,
-                "position": 13,
+                "position": 14,
                 "xgDiff": -3.389500007033348,
                 "xgConcededDiff": 1.353399932384491,
                 "xPointsDiff": -2.632078460017377,
-                "xPosition": 13,
-                "idx": 13,
-                "xPositionDiff": 5,
+                "xPosition": 14,
+                "idx": 14,
+                "xPositionDiff": 4,
                 "qualColor": null
               },
               {
@@ -10142,40 +10229,13 @@
                 "xg": 3.654599964618683,
                 "xgConceded": 6.053599998354912,
                 "xPoints": 4.595625784091153,
-                "position": 14,
+                "position": 15,
                 "xgDiff": 3.345400035381317,
                 "xgConcededDiff": -0.053599998354911804,
                 "xPointsDiff": 2.404374215908847,
-                "xPosition": 14,
-                "idx": 14,
-                "xPositionDiff": -8,
-                "qualColor": null
-              },
-              {
-                "name": "Valencia",
-                "shortName": "Valencia",
-                "id": 10267,
-                "pageUrl": "/teams/10267/overview/valencia",
-                "ongoing": null,
-                "played": 4,
-                "wins": 0,
-                "draws": 1,
-                "losses": 3,
-                "scoresStr": "1-9",
-                "goalConDiff": -8,
-                "pts": 1,
-                "teamId": 10267,
-                "teamName": "Valencia",
-                "xg": 3.8815999031066895,
-                "xgConceded": 6.830699801445007,
-                "xPoints": 4.469022743691598,
-                "position": 15,
-                "xgDiff": -2.8815999031066895,
-                "xgConcededDiff": 2.1693001985549927,
-                "xPointsDiff": -3.469022743691598,
                 "xPosition": 15,
                 "idx": 15,
-                "xPositionDiff": 5,
+                "xPositionDiff": -8,
                 "qualColor": null
               },
               {
@@ -10256,7 +10316,7 @@
                 "xPointsDiff": 4.25103655446907,
                 "xPosition": 18,
                 "idx": 18,
-                "xPositionDiff": -13,
+                "xPositionDiff": -12,
                 "qualColor": "#FF4646"
               },
               {
@@ -10283,7 +10343,7 @@
                 "xPointsDiff": 5.792873593230521,
                 "xPosition": 19,
                 "idx": 19,
-                "xPositionDiff": -15,
+                "xPositionDiff": -14,
                 "qualColor": "#FF4646"
               },
               {
@@ -10336,7 +10396,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370.png",
               "linkToMatch": "/matches/sevilla-vs-rayo-vallecano/2ar4ua#5868019",
               "date": null,
               "teamPageUrl": "/teams/8370/overview/rayo-vallecano",
@@ -10366,7 +10426,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
               "linkToMatch": "/matches/sevilla-vs-athletic-club/2a7iew#5868021",
               "date": null,
               "teamPageUrl": "/teams/8315/overview/athletic-club",
@@ -10396,7 +10456,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906.png",
               "linkToMatch": "/matches/sevilla-vs-atletico-madrid/2qpc8y#5868040",
               "date": null,
               "teamPageUrl": "/teams/9906/overview/atletico-madrid",
@@ -10426,7 +10486,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png",
               "linkToMatch": "/matches/sevilla-vs-espanyol/2cmp5w#5868045",
               "date": null,
               "teamPageUrl": "/teams/8558/overview/espanyol",
@@ -10452,13 +10512,43 @@
                 "shortName": "Sevilla",
                 "isOurTeam": true
               }
+            },
+            {
+              "result": 1,
+              "resultString": "W",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
+              "linkToMatch": "/matches/sevilla-vs-valencia/2unl97#5868059",
+              "date": null,
+              "teamPageUrl": "/teams/10267/overview/valencia",
+              "tooltipText": {
+                "utcTime": "2026-09-11T19:00:00Z",
+                "homeTeam": "Sevilla",
+                "homeTeamId": 8302,
+                "homeScore": 1,
+                "awayTeam": "Valencia",
+                "awayTeamId": 10267,
+                "awayScore": 0
+              },
+              "score": "1 - 0",
+              "home": {
+                "id": "8302",
+                "name": "Sevilla",
+                "shortName": "Sevilla",
+                "isOurTeam": true
+              },
+              "away": {
+                "id": "10267",
+                "name": "Valencia",
+                "shortName": "Valencia",
+                "isOurTeam": false
+              }
             }
           ],
           "8305": [
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png",
               "linkToMatch": "/matches/getafe-vs-deportivo-alaves/2qawwk#5868011",
               "date": null,
               "teamPageUrl": "/teams/9866/overview/deportivo-alaves",
@@ -10488,7 +10578,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696.png",
               "linkToMatch": "/matches/getafe-vs-racing-santander/2e1vat#5868026",
               "date": null,
               "teamPageUrl": "/teams/8696/overview/racing-santander",
@@ -10518,7 +10608,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
               "linkToMatch": "/matches/getafe-vs-osasuna/2askb1#5868036",
               "date": null,
               "teamPageUrl": "/teams/8371/overview/osasuna",
@@ -10548,7 +10638,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
               "linkToMatch": "/matches/getafe-vs-celta-vigo/2qs2ma#5868046",
               "date": null,
               "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -10580,7 +10670,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
               "linkToMatch": "/matches/sevilla-vs-athletic-club/2a7iew#5868021",
               "date": null,
               "teamPageUrl": "/teams/8302/overview/sevilla",
@@ -10610,7 +10700,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
               "linkToMatch": "/matches/athletic-club-vs-barcelona/2diy4x#5868016",
               "date": null,
               "teamPageUrl": "/teams/8634/overview/barcelona",
@@ -10640,7 +10730,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
               "linkToMatch": "/matches/athletic-club-vs-celta-vigo/2qvz7j#5868032",
               "date": null,
               "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -10670,7 +10760,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906.png",
               "linkToMatch": "/matches/athletic-club-vs-atletico-madrid/2queyl#5868042",
               "date": null,
               "teamPageUrl": "/teams/9906/overview/atletico-madrid",
@@ -10702,7 +10792,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
               "linkToMatch": "/matches/sevilla-vs-rayo-vallecano/2ar4ua#5868019",
               "date": null,
               "teamPageUrl": "/teams/8302/overview/sevilla",
@@ -10732,7 +10822,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png",
               "linkToMatch": "/matches/rayo-vallecano-vs-deportivo-alaves/2r09ww#5868029",
               "date": null,
               "teamPageUrl": "/teams/9866/overview/deportivo-alaves",
@@ -10762,7 +10852,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
               "linkToMatch": "/matches/rayo-vallecano-vs-barcelona/2e2ym0#5868034",
               "date": null,
               "teamPageUrl": "/teams/8634/overview/barcelona",
@@ -10792,7 +10882,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696.png",
               "linkToMatch": "/matches/rayo-vallecano-vs-racing-santander/2eplmn#5868048",
               "date": null,
               "teamPageUrl": "/teams/8696/overview/racing-santander",
@@ -10824,7 +10914,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
               "linkToMatch": "/matches/osasuna-vs-levante/2dk1c1#5868028",
               "date": null,
               "teamPageUrl": "/teams/8581/overview/levante",
@@ -10854,7 +10944,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
               "linkToMatch": "/matches/osasuna-vs-celta-vigo/2rhvxv#5868013",
               "date": null,
               "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -10884,7 +10974,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
               "linkToMatch": "/matches/getafe-vs-osasuna/2askb1#5868036",
               "date": null,
               "teamPageUrl": "/teams/8305/overview/getafe",
@@ -10914,7 +11004,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png",
               "linkToMatch": "/matches/osasuna-vs-deportivo-alaves/2r0nzh#5868041",
               "date": null,
               "teamPageUrl": "/teams/9866/overview/deportivo-alaves",
@@ -10946,7 +11036,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
               "linkToMatch": "/matches/espanyol-vs-levante/2fgcwj#5868015",
               "date": null,
               "teamPageUrl": "/teams/8581/overview/levante",
@@ -10976,7 +11066,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
               "linkToMatch": "/matches/espanyol-vs-real-madrid/2fzhol#5868025",
               "date": null,
               "teamPageUrl": "/teams/8633/overview/real-madrid",
@@ -11006,7 +11096,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
               "linkToMatch": "/matches/espanyol-vs-real-sociedad/2f8nc1#5868039",
               "date": null,
               "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -11036,7 +11126,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
               "linkToMatch": "/matches/sevilla-vs-espanyol/2cmp5w#5868045",
               "date": null,
               "teamPageUrl": "/teams/8302/overview/sevilla",
@@ -11068,7 +11158,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
               "linkToMatch": "/matches/real-sociedad-vs-real-betis/2fp6jh#5868023",
               "date": null,
               "teamPageUrl": "/teams/8603/overview/real-betis",
@@ -11098,7 +11188,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
               "linkToMatch": "/matches/real-sociedad-vs-real-madrid/2g087q#5868018",
               "date": null,
               "teamPageUrl": "/teams/8633/overview/real-madrid",
@@ -11128,7 +11218,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png",
               "linkToMatch": "/matches/espanyol-vs-real-sociedad/2f8nc1#5868039",
               "date": null,
               "teamPageUrl": "/teams/8558/overview/espanyol",
@@ -11158,7 +11248,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
               "linkToMatch": "/matches/real-sociedad-vs-celta-vigo/2tkbrv#5868070",
               "date": null,
               "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -11188,7 +11278,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268.png",
               "linkToMatch": "/matches/real-sociedad-vs-elche/2xjeda#5868044",
               "date": null,
               "teamPageUrl": "/teams/10268/overview/elche",
@@ -11220,7 +11310,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png",
               "linkToMatch": "/matches/espanyol-vs-levante/2fgcwj#5868015",
               "date": null,
               "teamPageUrl": "/teams/8558/overview/espanyol",
@@ -11250,7 +11340,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
               "linkToMatch": "/matches/osasuna-vs-levante/2dk1c1#5868028",
               "date": null,
               "teamPageUrl": "/teams/8371/overview/osasuna",
@@ -11280,7 +11370,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
               "linkToMatch": "/matches/levante-vs-real-betis/2fwwtn#5868035",
               "date": null,
               "teamPageUrl": "/teams/8603/overview/real-betis",
@@ -11310,7 +11400,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
               "linkToMatch": "/matches/levante-vs-malaga/2tafoj#5868047",
               "date": null,
               "teamPageUrl": "/teams/9864/overview/malaga",
@@ -11342,7 +11432,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
               "linkToMatch": "/matches/real-sociedad-vs-real-betis/2fp6jh#5868023",
               "date": null,
               "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -11372,7 +11462,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
               "linkToMatch": "/matches/real-betis-vs-valencia/2y0d9k#5868020",
               "date": null,
               "teamPageUrl": "/teams/10267/overview/valencia",
@@ -11402,7 +11492,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
               "linkToMatch": "/matches/levante-vs-real-betis/2fwwtn#5868035",
               "date": null,
               "teamPageUrl": "/teams/8581/overview/levante",
@@ -11432,7 +11522,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
               "linkToMatch": "/matches/real-betis-vs-real-madrid/2gg3e3#5868043",
               "date": null,
               "teamPageUrl": "/teams/8633/overview/real-madrid",
@@ -11464,7 +11554,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8558.png",
               "linkToMatch": "/matches/espanyol-vs-real-madrid/2fzhol#5868025",
               "date": null,
               "teamPageUrl": "/teams/8558/overview/espanyol",
@@ -11494,7 +11584,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
               "linkToMatch": "/matches/real-sociedad-vs-real-madrid/2g087q#5868018",
               "date": null,
               "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -11524,7 +11614,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
               "linkToMatch": "/matches/real-madrid-vs-malaga/2tv0tl#5868038",
               "date": null,
               "teamPageUrl": "/teams/9864/overview/malaga",
@@ -11554,7 +11644,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
               "linkToMatch": "/matches/real-betis-vs-real-madrid/2gg3e3#5868043",
               "date": null,
               "teamPageUrl": "/teams/8603/overview/real-betis",
@@ -11586,7 +11676,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268.png",
               "linkToMatch": "/matches/barcelona-vs-elche/2ydbmf#5868024",
               "date": null,
               "teamPageUrl": "/teams/10268/overview/elche",
@@ -11616,7 +11706,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
               "linkToMatch": "/matches/athletic-club-vs-barcelona/2diy4x#5868016",
               "date": null,
               "teamPageUrl": "/teams/8315/overview/athletic-club",
@@ -11646,7 +11736,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370.png",
               "linkToMatch": "/matches/rayo-vallecano-vs-barcelona/2e2ym0#5868034",
               "date": null,
               "teamPageUrl": "/teams/8370/overview/rayo-vallecano",
@@ -11676,7 +11766,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
               "linkToMatch": "/matches/barcelona-vs-valencia/2ycx1d#5868049",
               "date": null,
               "teamPageUrl": "/teams/10267/overview/valencia",
@@ -11708,7 +11798,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
               "linkToMatch": "/matches/racing-santander-vs-villarreal/2ycx33#5868017",
               "date": null,
               "teamPageUrl": "/teams/10205/overview/villarreal",
@@ -11738,7 +11828,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
               "linkToMatch": "/matches/getafe-vs-racing-santander/2e1vat#5868026",
               "date": null,
               "teamPageUrl": "/teams/8305/overview/getafe",
@@ -11768,7 +11858,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268.png",
               "linkToMatch": "/matches/racing-santander-vs-elche/2z2hfu#5868037",
               "date": null,
               "teamPageUrl": "/teams/10268/overview/elche",
@@ -11798,7 +11888,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370.png",
               "linkToMatch": "/matches/rayo-vallecano-vs-racing-santander/2eplmn#5868048",
               "date": null,
               "teamPageUrl": "/teams/8370/overview/rayo-vallecano",
@@ -11830,7 +11920,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10268.png",
               "linkToMatch": "/matches/deportivo-coruna-vs-elche/3bp0b9#5868014",
               "date": null,
               "teamPageUrl": "/teams/10268/overview/elche",
@@ -11860,7 +11950,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
               "linkToMatch": "/matches/deportivo-coruna-vs-malaga/36x4q0#5868027",
               "date": null,
               "teamPageUrl": "/teams/9864/overview/malaga",
@@ -11890,7 +11980,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
               "linkToMatch": "/matches/deportivo-coruna-vs-valencia/3bokua#5868033",
               "date": null,
               "teamPageUrl": "/teams/10267/overview/valencia",
@@ -11920,7 +12010,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
               "linkToMatch": "/matches/deportivo-coruna-vs-villarreal/3axz49#5868050",
               "date": null,
               "teamPageUrl": "/teams/10205/overview/villarreal",
@@ -11952,7 +12042,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906.png",
               "linkToMatch": "/matches/malaga-vs-atletico-madrid/38d3a9#5868012",
               "date": null,
               "teamPageUrl": "/teams/9906/overview/atletico-madrid",
@@ -11982,7 +12072,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
               "linkToMatch": "/matches/deportivo-coruna-vs-malaga/36x4q0#5868027",
               "date": null,
               "teamPageUrl": "/teams/9783/overview/deportivo-coruna",
@@ -12012,7 +12102,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8633.png",
               "linkToMatch": "/matches/real-madrid-vs-malaga/2tv0tl#5868038",
               "date": null,
               "teamPageUrl": "/teams/8633/overview/real-madrid",
@@ -12042,7 +12132,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8581.png",
               "linkToMatch": "/matches/levante-vs-malaga/2tafoj#5868047",
               "date": null,
               "teamPageUrl": "/teams/8581/overview/levante",
@@ -12074,7 +12164,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
               "linkToMatch": "/matches/getafe-vs-deportivo-alaves/2qawwk#5868011",
               "date": null,
               "teamPageUrl": "/teams/8305/overview/getafe",
@@ -12104,7 +12194,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8370.png",
               "linkToMatch": "/matches/rayo-vallecano-vs-deportivo-alaves/2r09ww#5868029",
               "date": null,
               "teamPageUrl": "/teams/8370/overview/rayo-vallecano",
@@ -12134,7 +12224,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
               "linkToMatch": "/matches/deportivo-alaves-vs-villarreal/3bxlyu#5868031",
               "date": null,
               "teamPageUrl": "/teams/10205/overview/villarreal",
@@ -12164,7 +12254,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
               "linkToMatch": "/matches/osasuna-vs-deportivo-alaves/2r0nzh#5868041",
               "date": null,
               "teamPageUrl": "/teams/8371/overview/osasuna",
@@ -12196,7 +12286,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9864.png",
               "linkToMatch": "/matches/malaga-vs-atletico-madrid/38d3a9#5868012",
               "date": null,
               "teamPageUrl": "/teams/9864/overview/malaga",
@@ -12226,7 +12316,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10205.png",
               "linkToMatch": "/matches/atletico-madrid-vs-villarreal/3ceu3u#5868022",
               "date": null,
               "teamPageUrl": "/teams/10205/overview/villarreal",
@@ -12256,7 +12346,7 @@
             {
               "result": 1,
               "resultString": "W",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
               "linkToMatch": "/matches/sevilla-vs-atletico-madrid/2qpc8y#5868040",
               "date": null,
               "teamPageUrl": "/teams/8302/overview/sevilla",
@@ -12286,7 +12376,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
               "linkToMatch": "/matches/athletic-club-vs-atletico-madrid/2queyl#5868042",
               "date": null,
               "teamPageUrl": "/teams/8315/overview/athletic-club",
@@ -12318,7 +12408,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/10267.png",
               "linkToMatch": "/matches/celta-vigo-vs-valencia/3d7bzj#5868030",
               "date": null,
               "teamPageUrl": "/teams/10267/overview/valencia",
@@ -12348,7 +12438,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8371.png",
               "linkToMatch": "/matches/osasuna-vs-celta-vigo/2rhvxv#5868013",
               "date": null,
               "teamPageUrl": "/teams/8371/overview/osasuna",
@@ -12378,7 +12468,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8315.png",
               "linkToMatch": "/matches/athletic-club-vs-celta-vigo/2qvz7j#5868032",
               "date": null,
               "teamPageUrl": "/teams/8315/overview/athletic-club",
@@ -12408,7 +12498,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
               "linkToMatch": "/matches/real-sociedad-vs-celta-vigo/2tkbrv#5868070",
               "date": null,
               "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -12438,7 +12528,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8305.png",
               "linkToMatch": "/matches/getafe-vs-celta-vigo/2qs2ma#5868046",
               "date": null,
               "teamPageUrl": "/teams/8305/overview/getafe",
@@ -12470,7 +12560,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696.png",
               "linkToMatch": "/matches/racing-santander-vs-villarreal/2ycx33#5868017",
               "date": null,
               "teamPageUrl": "/teams/8696/overview/racing-santander",
@@ -12500,7 +12590,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9906.png",
               "linkToMatch": "/matches/atletico-madrid-vs-villarreal/3ceu3u#5868022",
               "date": null,
               "teamPageUrl": "/teams/9906/overview/atletico-madrid",
@@ -12530,7 +12620,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9866.png",
               "linkToMatch": "/matches/deportivo-alaves-vs-villarreal/3bxlyu#5868031",
               "date": null,
               "teamPageUrl": "/teams/9866/overview/deportivo-alaves",
@@ -12560,7 +12650,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
               "linkToMatch": "/matches/deportivo-coruna-vs-villarreal/3axz49#5868050",
               "date": null,
               "teamPageUrl": "/teams/9783/overview/deportivo-coruna",
@@ -12592,7 +12682,7 @@
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9910.png",
               "linkToMatch": "/matches/celta-vigo-vs-valencia/3d7bzj#5868030",
               "date": null,
               "teamPageUrl": "/teams/9910/overview/celta-vigo",
@@ -12622,7 +12712,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8603.png",
               "linkToMatch": "/matches/real-betis-vs-valencia/2y0d9k#5868020",
               "date": null,
               "teamPageUrl": "/teams/8603/overview/real-betis",
@@ -12652,7 +12742,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
               "linkToMatch": "/matches/deportivo-coruna-vs-valencia/3bokua#5868033",
               "date": null,
               "teamPageUrl": "/teams/9783/overview/deportivo-coruna",
@@ -12682,7 +12772,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
               "linkToMatch": "/matches/barcelona-vs-valencia/2ycx1d#5868049",
               "date": null,
               "teamPageUrl": "/teams/8634/overview/barcelona",
@@ -12708,13 +12798,43 @@
                 "shortName": "Barcelona",
                 "isOurTeam": false
               }
+            },
+            {
+              "result": -1,
+              "resultString": "L",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8302.png",
+              "linkToMatch": "/matches/sevilla-vs-valencia/2unl97#5868059",
+              "date": null,
+              "teamPageUrl": "/teams/8302/overview/sevilla",
+              "tooltipText": {
+                "utcTime": "2026-09-11T19:00:00Z",
+                "homeTeam": "Sevilla",
+                "homeTeamId": 8302,
+                "homeScore": 1,
+                "awayTeam": "Valencia",
+                "awayTeamId": 10267,
+                "awayScore": 0
+              },
+              "score": "1 - 0",
+              "home": {
+                "id": "8302",
+                "name": "Sevilla",
+                "shortName": "Sevilla",
+                "isOurTeam": false
+              },
+              "away": {
+                "id": "10267",
+                "name": "Valencia",
+                "shortName": "Valencia",
+                "isOurTeam": true
+              }
             }
           ],
           "10268": [
             {
               "result": 0,
               "resultString": "D",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/9783.png",
               "linkToMatch": "/matches/deportivo-coruna-vs-elche/3bp0b9#5868014",
               "date": null,
               "teamPageUrl": "/teams/9783/overview/deportivo-coruna",
@@ -12744,7 +12864,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8634.png",
               "linkToMatch": "/matches/barcelona-vs-elche/2ydbmf#5868024",
               "date": null,
               "teamPageUrl": "/teams/8634/overview/barcelona",
@@ -12774,7 +12894,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8696.png",
               "linkToMatch": "/matches/racing-santander-vs-elche/2z2hfu#5868037",
               "date": null,
               "teamPageUrl": "/teams/8696/overview/racing-santander",
@@ -12804,7 +12924,7 @@
             {
               "result": -1,
               "resultString": "L",
-              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560_xsmall.png",
+              "imageUrl": "https://images.fotmob.com/image_resources/logo/teamlogo/8560.png",
               "linkToMatch": "/matches/real-sociedad-vs-elche/2xjeda#5868044",
               "date": null,
               "teamPageUrl": "/teams/8560/overview/real-sociedad",
@@ -12835,20 +12955,20 @@
         },
         "nextOpponent": {
           "8302": [
-            "10267",
-            "Valencia",
-            "5868059",
+            "9783",
+            "Deportivo A Coruña",
+            "5868064",
+            {
+              "id": "9783",
+              "name": "Deportivo A Coruña",
+              "shortName": "Deportivo A Coruña"
+            },
             {
               "id": "8302",
               "name": "Sevilla",
               "shortName": "Sevilla"
             },
-            {
-              "id": "10267",
-              "name": "Valencia",
-              "shortName": "Valencia"
-            },
-            "2026-09-11T19:00:00Z"
+            "2026-09-16T17:00:00Z"
           ],
           "8305": [
             "9783",
@@ -13123,20 +13243,20 @@
             "2026-09-14T19:00:00Z"
           ],
           "10267": [
-            "8302",
-            "Sevilla",
-            "5868059",
+            "9866",
+            "Deportivo Alavés",
+            "5868061",
             {
-              "id": "8302",
-              "name": "Sevilla",
-              "shortName": "Sevilla"
+              "id": "9866",
+              "name": "Deportivo Alavés",
+              "shortName": "Deportivo Alavés"
             },
             {
               "id": "10267",
               "name": "Valencia",
               "shortName": "Valencia"
             },
-            "2026-09-11T19:00:00Z"
+            "2026-09-15T18:00:00Z"
           ],
           "10268": [
             "8315",
@@ -14938,12 +15058,12 @@
         "opponent": {
           "id": "8302",
           "name": "Sevilla",
-          "score": 0
+          "score": 1
         },
         "home": {
           "id": "8302",
           "name": "Sevilla",
-          "score": 0
+          "score": 1
         },
         "away": {
           "id": "10267",
@@ -14951,15 +15071,28 @@
           "score": 0
         },
         "displayTournament": true,
-        "notStarted": true,
+        "notStarted": false,
         "tournament": {
           "stage": ""
         },
         "status": {
-          "utcTime": "2026-09-11T19:00:00Z",
-          "started": false,
+          "utcTime": "2026-09-11T19:00:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "11.09.2026 21:02:40",
+            "secondHalfStarted": "11.09.2026 22:11:29"
+          },
+          "periodLength": 45,
+          "finished": true,
+          "started": true,
           "cancelled": false,
-          "finished": false
+          "awarded": false,
+          "scoreStr": "1 - 0",
+          "reason": {
+            "short": "FT",
+            "shortKey": "fulltime_short",
+            "long": "Full-Time",
+            "longKey": "finished"
+          }
         }
       },
       {
@@ -16463,36 +16596,6 @@
         }
       },
       {
-        "id": "5868105",
-        "pageUrl": "/matches/real-madrid-vs-barcelona/2grk20#5868105",
-        "opponent": {
-          "id": "8634",
-          "name": "Barcelona",
-          "score": 0
-        },
-        "home": {
-          "id": "8634",
-          "name": "Barcelona",
-          "score": 0
-        },
-        "away": {
-          "id": "8633",
-          "name": "Real Madrid",
-          "score": 0
-        },
-        "displayTournament": true,
-        "notStarted": true,
-        "tournament": {
-          "stage": ""
-        },
-        "status": {
-          "utcTime": "2026-10-25T14:00:00Z",
-          "started": false,
-          "cancelled": false,
-          "finished": false
-        }
-      },
-      {
         "id": "5868104",
         "pageUrl": "/matches/real-betis-vs-celta-vigo/2u1dbj#5868104",
         "opponent": {
@@ -16697,6 +16800,36 @@
         },
         "status": {
           "utcTime": "2026-10-25T14:00:00Z",
+          "started": false,
+          "cancelled": false,
+          "finished": false
+        }
+      },
+      {
+        "id": "5868105",
+        "pageUrl": "/matches/real-madrid-vs-barcelona/2grk20#5868105",
+        "opponent": {
+          "id": "8634",
+          "name": "Barcelona",
+          "score": 0
+        },
+        "home": {
+          "id": "8634",
+          "name": "Barcelona",
+          "score": 0
+        },
+        "away": {
+          "id": "8633",
+          "name": "Real Madrid",
+          "score": 0
+        },
+        "displayTournament": true,
+        "notStarted": true,
+        "tournament": {
+          "stage": ""
+        },
+        "status": {
+          "utcTime": "2026-10-25T20:00:00Z",
           "started": false,
           "cancelled": false,
           "finished": false
@@ -25103,12 +25236,12 @@
         }
       }
     ],
-    "hasOngoingMatch": false,
+    "hasOngoingMatch": true,
     "shotMap": null,
     "matches": {
       "firstUnplayedMatch": {
-        "firstUnplayedMatchIndex": 41,
-        "firstUnplayedMatchId": "5868059"
+        "firstUnplayedMatchIndex": 42,
+        "firstUnplayedMatchId": "5868056"
       },
       "allMatches": [
         {
@@ -26398,11 +26531,23 @@
             "id": "10267"
           },
           "status": {
-            "utcTime": "2026-09-11T19:00:00Z",
-            "timezone": "",
-            "started": false,
+            "utcTime": "2026-09-11T19:00:00.000Z",
+            "halfs": {
+              "firstHalfStarted": "11.09.2026 21:02:40",
+              "secondHalfStarted": "11.09.2026 22:11:29"
+            },
+            "periodLength": 45,
+            "finished": true,
+            "started": true,
             "cancelled": false,
-            "finished": false
+            "awarded": false,
+            "scoreStr": "1 - 0",
+            "reason": {
+              "short": "FT",
+              "shortKey": "fulltime_short",
+              "long": "Full-Time",
+              "longKey": "finished"
+            }
           }
         },
         {
@@ -27558,29 +27703,6 @@
         {
           "round": "10",
           "roundName": 10,
-          "pageUrl": "/matches/real-madrid-vs-barcelona/2grk20#5868105",
-          "id": "5868105",
-          "home": {
-            "name": "Barcelona",
-            "shortName": "Barcelona",
-            "id": "8634"
-          },
-          "away": {
-            "name": "Real Madrid",
-            "shortName": "Real Madrid",
-            "id": "8633"
-          },
-          "status": {
-            "utcTime": "2026-10-25T14:00:00Z",
-            "timezone": "",
-            "started": false,
-            "cancelled": false,
-            "finished": false
-          }
-        },
-        {
-          "round": "10",
-          "roundName": 10,
           "pageUrl": "/matches/real-betis-vs-celta-vigo/2u1dbj#5868104",
           "id": "5868104",
           "home": {
@@ -27733,6 +27855,29 @@
           },
           "status": {
             "utcTime": "2026-10-25T14:00:00Z",
+            "timezone": "",
+            "started": false,
+            "cancelled": false,
+            "finished": false
+          }
+        },
+        {
+          "round": "10",
+          "roundName": 10,
+          "pageUrl": "/matches/real-madrid-vs-barcelona/2grk20#5868105",
+          "id": "5868105",
+          "home": {
+            "name": "Barcelona",
+            "shortName": "Barcelona",
+            "id": "8634"
+          },
+          "away": {
+            "name": "Real Madrid",
+            "shortName": "Real Madrid",
+            "id": "8633"
+          },
+          "status": {
+            "utcTime": "2026-10-25T20:00:00Z",
             "timezone": "",
             "started": false,
             "cancelled": false,
@@ -34180,7 +34325,7 @@
           }
         }
       ],
-      "hasOngoingMatch": false,
+      "hasOngoingMatch": true,
       "fixtureInfo": {
         "activeRound": {
           "roundId": "5",
@@ -34783,12 +34928,12 @@
       {
         "header": "Minutes played",
         "participant": {
-          "id": 681213,
-          "name": "Ionut Radu",
+          "id": 659490,
+          "name": "Gabriel Suazo",
           "rank": 1,
-          "ccode": "ROU",
-          "teamId": 9910,
-          "teamName": "Celta de Vigo",
+          "ccode": "CHI",
+          "teamId": 8302,
+          "teamName": "Sevilla",
           "value": 450,
           "stat": {
             "name": "mins_played",
@@ -34800,8 +34945,29 @@
         "fetchAllUrl": "https://data.fotmob.com/stats/87/season/38843/mins_played.json",
         "topThree": [
           {
+            "id": 659490,
+            "name": "Gabriel Suazo",
+            "rank": 1,
+            "ccode": "CHI",
+            "teamId": 8302,
+            "teamName": "Sevilla",
+            "value": 450,
+            "stat": {
+              "name": "mins_played",
+              "value": 450,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#FFFFFF",
+              "lightMode": "#C90F20",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
             "id": 681213,
-            "name": "Ionut Radu",
+            "name": "Ionuț Radu",
             "rank": 1,
             "ccode": "ROU",
             "teamId": 9910,
@@ -34821,44 +34987,23 @@
             }
           },
           {
-            "id": 844477,
-            "name": "Sergio Gómez",
-            "rank": 2,
+            "id": 1102289,
+            "name": "Juan Iglesias",
+            "rank": 1,
             "ccode": "ESP",
-            "teamId": 8560,
-            "teamName": "Real Sociedad",
-            "value": 432,
+            "teamId": 8302,
+            "teamName": "Sevilla",
+            "value": 450,
             "stat": {
               "name": "mins_played",
-              "value": 432,
+              "value": 450,
               "format": "number",
               "fractions": 0
             },
             "teamColors": {
-              "darkMode": "#0056B3",
-              "lightMode": "#0056B3",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 1249284,
-            "name": "Jon Aramburu",
-            "rank": 3,
-            "ccode": "VEN",
-            "teamId": 8560,
-            "teamName": "Real Sociedad",
-            "value": 417,
-            "stat": {
-              "name": "mins_played",
-              "value": 417,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#0056B3",
-              "lightMode": "#0056B3",
-              "fontDarkMode": "rgba(255, 255, 255, 1.0)",
+              "darkMode": "#FFFFFF",
+              "lightMode": "#C90F20",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           }
@@ -35899,7 +36044,7 @@
           },
           {
             "id": 282462,
-            "name": "Íñigo Ruiz de Galarreta",
+            "name": "Íñigo Ruíz de Galarreta",
             "rank": 3,
             "ccode": "ESP",
             "teamId": 8315,
@@ -36080,10 +36225,10 @@
             "ccode": "NGA",
             "teamId": 8302,
             "teamName": "Sevilla",
-            "value": 4.1,
+            "value": 4,
             "stat": {
               "name": "won_contest",
-              "value": 4.1,
+              "value": 4,
               "format": "fraction",
               "fractions": 1
             },
@@ -37400,10 +37545,10 @@
             "ccode": "MKD",
             "teamId": 10267,
             "teamName": "Valencia CF",
-            "value": 2.3,
+            "value": 2,
             "stat": {
               "name": "goals_conceded",
-              "value": 2.3,
+              "value": 2,
               "format": "fraction",
               "fractions": 1
             },
@@ -37483,7 +37628,7 @@
           },
           {
             "id": 282462,
-            "name": "Íñigo Ruiz de Galarreta",
+            "name": "Íñigo Ruíz de Galarreta",
             "rank": 3,
             "ccode": "ESP",
             "teamId": 8315,
@@ -39538,10 +39683,10 @@
         "header": "Possession won final 3rd per match",
         "participant": {
           "id": 0,
-          "name": "Atlético Madrid",
+          "name": "Sevilla",
           "rank": 1,
           "ccode": "ESP",
-          "teamId": 9906,
+          "teamId": 8302,
           "value": 5.8,
           "stat": {
             "name": "poss_won_att_3rd_team",
@@ -39554,8 +39699,28 @@
         "topThree": [
           {
             "id": 0,
-            "name": "Atlético Madrid",
+            "name": "Sevilla",
             "rank": 1,
+            "ccode": "ESP",
+            "teamId": 8302,
+            "value": 5.8,
+            "stat": {
+              "name": "poss_won_att_3rd_team",
+              "value": 5.8,
+              "format": "fraction",
+              "fractions": 1
+            },
+            "teamColors": {
+              "darkMode": "#FFFFFF",
+              "lightMode": "#C90F20",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Atlético Madrid",
+            "rank": 2,
             "ccode": "ESP",
             "teamId": 9906,
             "value": 5.8,
@@ -39569,26 +39734,6 @@
               "darkMode": "#C63527",
               "lightMode": "#C63527",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 0,
-            "name": "Sevilla",
-            "rank": 2,
-            "ccode": "ESP",
-            "teamId": 8302,
-            "value": 5.3,
-            "stat": {
-              "name": "poss_won_att_3rd_team",
-              "value": 5.3,
-              "format": "fraction",
-              "fractions": 1
-            },
-            "teamColors": {
-              "darkMode": "#FFFFFF",
-              "lightMode": "#C90F20",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           },
@@ -39914,10 +40059,10 @@
             "rank": 2,
             "ccode": "ESP",
             "teamId": 8302,
-            "value": 16.8,
+            "value": 15,
             "stat": {
               "name": "fk_foul_lost_team",
-              "value": 16.8,
+              "value": 15,
               "format": "fraction",
               "fractions": 1
             },
@@ -39958,10 +40103,10 @@
         "header": "Yellow cards",
         "participant": {
           "id": 0,
-          "name": "Espanyol",
+          "name": "Sevilla",
           "rank": 1,
           "ccode": "ESP",
-          "teamId": 8558,
+          "teamId": 8302,
           "value": 14,
           "stat": {
             "name": "total_yel_card_team",
@@ -39974,8 +40119,28 @@
         "topThree": [
           {
             "id": 0,
-            "name": "Espanyol",
+            "name": "Sevilla",
             "rank": 1,
+            "ccode": "ESP",
+            "teamId": 8302,
+            "value": 14,
+            "stat": {
+              "name": "total_yel_card_team",
+              "value": 14,
+              "format": "number",
+              "fractions": 0
+            },
+            "teamColors": {
+              "darkMode": "#FFFFFF",
+              "lightMode": "#C90F20",
+              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
+              "fontLightMode": "rgba(255, 255, 255, 1.0)"
+            }
+          },
+          {
+            "id": 0,
+            "name": "Espanyol",
+            "rank": 2,
             "ccode": "ESP",
             "teamId": 8558,
             "value": 14,
@@ -39989,26 +40154,6 @@
               "darkMode": "#1954B2",
               "lightMode": "#1954B2",
               "fontDarkMode": "rgba(255, 255, 255, 1.0)",
-              "fontLightMode": "rgba(255, 255, 255, 1.0)"
-            }
-          },
-          {
-            "id": 0,
-            "name": "Sevilla",
-            "rank": 2,
-            "ccode": "ESP",
-            "teamId": 8302,
-            "value": 13,
-            "stat": {
-              "name": "total_yel_card_team",
-              "value": 13,
-              "format": "number",
-              "fractions": 0
-            },
-            "teamColors": {
-              "darkMode": "#FFFFFF",
-              "lightMode": "#C90F20",
-              "fontDarkMode": "rgba(29, 29, 29, 1.0)",
               "fontLightMode": "rgba(255, 255, 255, 1.0)"
             }
           },
@@ -40246,8 +40391,8 @@
   },
   "fixtures": {
     "firstUnplayedMatch": {
-      "firstUnplayedMatchIndex": 41,
-      "firstUnplayedMatchId": "5868059"
+      "firstUnplayedMatchIndex": 42,
+      "firstUnplayedMatchId": "5868056"
     },
     "allMatches": [
       {
@@ -41537,11 +41682,23 @@
           "id": "10267"
         },
         "status": {
-          "utcTime": "2026-09-11T19:00:00Z",
-          "timezone": "",
-          "started": false,
+          "utcTime": "2026-09-11T19:00:00.000Z",
+          "halfs": {
+            "firstHalfStarted": "11.09.2026 21:02:40",
+            "secondHalfStarted": "11.09.2026 22:11:29"
+          },
+          "periodLength": 45,
+          "finished": true,
+          "started": true,
           "cancelled": false,
-          "finished": false
+          "awarded": false,
+          "scoreStr": "1 - 0",
+          "reason": {
+            "short": "FT",
+            "shortKey": "fulltime_short",
+            "long": "Full-Time",
+            "longKey": "finished"
+          }
         }
       },
       {
@@ -42697,29 +42854,6 @@
       {
         "round": "10",
         "roundName": 10,
-        "pageUrl": "/matches/real-madrid-vs-barcelona/2grk20#5868105",
-        "id": "5868105",
-        "home": {
-          "name": "Barcelona",
-          "shortName": "Barcelona",
-          "id": "8634"
-        },
-        "away": {
-          "name": "Real Madrid",
-          "shortName": "Real Madrid",
-          "id": "8633"
-        },
-        "status": {
-          "utcTime": "2026-10-25T14:00:00Z",
-          "timezone": "",
-          "started": false,
-          "cancelled": false,
-          "finished": false
-        }
-      },
-      {
-        "round": "10",
-        "roundName": 10,
         "pageUrl": "/matches/real-betis-vs-celta-vigo/2u1dbj#5868104",
         "id": "5868104",
         "home": {
@@ -42872,6 +43006,29 @@
         },
         "status": {
           "utcTime": "2026-10-25T14:00:00Z",
+          "timezone": "",
+          "started": false,
+          "cancelled": false,
+          "finished": false
+        }
+      },
+      {
+        "round": "10",
+        "roundName": 10,
+        "pageUrl": "/matches/real-madrid-vs-barcelona/2grk20#5868105",
+        "id": "5868105",
+        "home": {
+          "name": "Barcelona",
+          "shortName": "Barcelona",
+          "id": "8634"
+        },
+        "away": {
+          "name": "Real Madrid",
+          "shortName": "Real Madrid",
+          "id": "8633"
+        },
+        "status": {
+          "utcTime": "2026-10-25T20:00:00Z",
           "timezone": "",
           "started": false,
           "cancelled": false,
@@ -49319,7 +49476,7 @@
         }
       }
     ],
-    "hasOngoingMatch": false,
+    "hasOngoingMatch": true,
     "fixtureInfo": {
       "activeRound": {
         "roundId": "5",
